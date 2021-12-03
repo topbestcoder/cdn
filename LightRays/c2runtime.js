@@ -893,8 +893,14 @@ else if(mode===3)
 {orig_aspect=this.original_width/this.original_height;cur_aspect=this.lastWindowWidth/this.lastWindowHeight;if(cur_aspect>orig_aspect)
 this.draw_width=this.draw_height*cur_aspect;else if(cur_aspect<orig_aspect)
 this.draw_height=this.draw_width/cur_aspect;}}}
+
 if(this.canvasdiv&&!this.isDomFree)
-{jQuery(this.canvasdiv).css({"width":Math.round(w)+"px","height":Math.round(h)+"px","margin-left":Math.floor(offx)+"px","margin-top":Math.floor(offy)+"px"});if(typeof cr_is_preview!=="undefined")
+/* WORKER_DELETE
+{jQuery(this.canvasdiv).css({"width":Math.round(w)+"px","height":Math.round(h)+"px","margin-left":Math.floor(offx)+"px","margin-top":Math.floor(offy)+"px"});
+WORKER_DELETE */
+{jQuery(this.canvasdiv).css({"width":Math.round(w)+"px","height":Math.round(h)+"px","margin-left":"0px","margin-top":"0px"});
+
+if(typeof cr_is_preview!=="undefined")
 {jQuery("#borderwrap").css({"width":Math.round(w)+"px","height":Math.round(h)+"px"});}}
 if(this.canvas)
 {this.canvas.width=Math.round(w*dpr);this.canvas.height=Math.round(h*dpr);if(this.isEjecta)
@@ -1054,7 +1060,35 @@ else
 {var ms_elapsed=Date.now()-this.start_time;if(ctx)
 {var overlay_width=this.width;var overlay_height=this.height;var dpr=this.devicePixelRatio;if(this.loaderstyle<3&&(this.isCocoonJs||(ms_elapsed>=500&&this.last_progress!=this.progress)))
 {ctx.clearRect(0,0,overlay_width,overlay_height);var mx=overlay_width/2;var my=overlay_height/2;var haslogo=(this.loaderstyle===0&&this.loaderlogos.logo.complete);var hlw=40*dpr;var hlh=0;var logowidth=80*dpr;var logoheight;if(haslogo)
+
+/* WORKER_DELETE
 {var loaderLogoImage=this.loaderlogos.logo;logowidth=loaderLogoImage.width*dpr;logoheight=loaderLogoImage.height*dpr;hlw=logowidth/2;hlh=logoheight/2;ctx.drawImage(loaderLogoImage,cr.floor(mx-hlw),cr.floor(my-hlh),logowidth,logoheight);}
+WORKER_DELETE */
+
+let LoadLogo=function()
+{
+ try{
+    //. alert(111111111111);
+     let loaderLogoImage=this.loaderlogos.logo;
+
+    //. console.warn(loaderLogoImage);
+     logowidth=loaderLogoImage.width*dpr;
+     logoheight=loaderLogoImage.height*dpr;
+     hlw=logowidth/2;hlh=logoheight/2;
+     ctx.drawImage(loaderLogoImage,cr.floor(mx-hlw),cr.floor(my-hlh),logowidth,logoheight);
+    /*
+    onload = function () {
+      this._canvas.drawImage(img, 300, 300);// this is line 14
+    }
+    */
+    }
+ catch(e)
+    {
+     window.setTimeout(LoadLogo,1);
+    }
+}; //. let LoadLogo=function()
+
+
 if(this.loaderstyle<=1)
 {my+=hlh+(haslogo?12*dpr:0);mx-=hlw;mx=cr.floor(mx)+0.5;my=cr.floor(my)+0.5;ctx.fillStyle=anyImageHadError?"red":"DodgerBlue";ctx.fillRect(mx,my,Math.floor(logowidth*this.progress),6*dpr);ctx.strokeStyle="black";ctx.strokeRect(mx,my,logowidth,6*dpr);ctx.strokeStyle="white";ctx.strokeRect(mx-1*dpr,my-1*dpr,logowidth+2*dpr,8*dpr);}
 else if(this.loaderstyle===2)
