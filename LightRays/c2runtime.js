@@ -1059,35 +1059,37 @@ this.progress=0;this.last_progress=-1;var self=this;if(this.areAllTexturesAndSou
 else
 {var ms_elapsed=Date.now()-this.start_time;if(ctx)
 {var overlay_width=this.width;var overlay_height=this.height;var dpr=this.devicePixelRatio;if(this.loaderstyle<3&&(this.isCocoonJs||(ms_elapsed>=500&&this.last_progress!=this.progress)))
-{ctx.clearRect(0,0,overlay_width,overlay_height);var mx=overlay_width/2;var my=overlay_height/2;var haslogo=(this.loaderstyle===0&&this.loaderlogos.logo.complete);var hlw=40*dpr;var hlh=0;var logowidth=80*dpr;var logoheight;if(haslogo)
+{ctx.clearRect(0,0,overlay_width,overlay_height);var mx=overlay_width/2;var my=overlay_height/2;var haslogo=(this.loaderstyle===0&&this.loaderlogos.logo.complete);var hlw=40*dpr;var hlh=0;var logowidth=80*dpr;var logoheight;
+
+if(haslogo)
 
 /* WORKER_DELETE
 {var loaderLogoImage=this.loaderlogos.logo;logowidth=loaderLogoImage.width*dpr;logoheight=loaderLogoImage.height*dpr;hlw=logowidth/2;hlh=logoheight/2;ctx.drawImage(loaderLogoImage,cr.floor(mx-hlw),cr.floor(my-hlh),logowidth,logoheight);}
 WORKER_DELETE */
+  {
+   let LoadLogo=function()
+   {
+    try{
+       //. alert(111111111111);
+        let loaderLogoImage=this.loaderlogos.logo;
 
-let LoadLogo=function()
-{
- try{
-    //. alert(111111111111);
-     let loaderLogoImage=this.loaderlogos.logo;
-
-    //. console.warn(loaderLogoImage);
-     logowidth=loaderLogoImage.width*dpr;
-     logoheight=loaderLogoImage.height*dpr;
-     hlw=logowidth/2;hlh=logoheight/2;
-     ctx.drawImage(loaderLogoImage,cr.floor(mx-hlw),cr.floor(my-hlh),logowidth,logoheight);
-    /*
-    onload = function () {
-      this._canvas.drawImage(img, 300, 300);// this is line 14
-    }
-    */
-    }
- catch(e)
-    {
-     window.setTimeout(LoadLogo,1);
-    }
-}; //. let LoadLogo=function()
-
+       //. console.warn(loaderLogoImage);
+        logowidth=loaderLogoImage.width*dpr;
+        logoheight=loaderLogoImage.height*dpr;
+        hlw=logowidth/2;hlh=logoheight/2;
+        ctx.drawImage(loaderLogoImage,cr.floor(mx-hlw),cr.floor(my-hlh),logowidth,logoheight);
+       /*
+       onload = function () {
+         this._canvas.drawImage(img, 300, 300);// this is line 14
+       }
+       */
+       }
+    catch(e)
+       {
+        window.setTimeout(LoadLogo,1);
+       }
+   }; //. let LoadLogo=function()
+  } //. if(haslogo)
 
 if(this.loaderstyle<=1)
 {my+=hlh+(haslogo?12*dpr:0);mx-=hlw;mx=cr.floor(mx)+0.5;my=cr.floor(my)+0.5;ctx.fillStyle=anyImageHadError?"red":"DodgerBlue";ctx.fillRect(mx,my,Math.floor(logowidth*this.progress),6*dpr);ctx.strokeStyle="black";ctx.strokeRect(mx,my,logowidth,6*dpr);ctx.strokeStyle="white";ctx.strokeRect(mx-1*dpr,my-1*dpr,logowidth+2*dpr,8*dpr);}
