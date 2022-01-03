@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<game>
+
+	<level id = '1'>
+	    <block>260_660_0_0</block>
+        <block>360_760_1_0</block>
+        <block>410_560_2_90</block>
+        <moves>2</moves>        
+	</level>
+
+    <level id = '2'>
+        <block>260_660_0_0</block>
+        <block>260_760_1_0</block>
+        <block>410_710_1_90</block>
+        <block>460_560_1_0</block>
+        <block>510_710_1_90</block>
+        <moves>2</moves>
+    </level>
+
+    <level id = '3'>
+        <block>260_660_0_0</block>
+        <block>160_860_1_0</block>
+        <block>410_760_2_90</block>
+        <block>210_460_2_0</block>
+        <block>610_610_1_90</block>
+        <block>560_960_1_0</block>
+        <moves>2</moves>
+    </level>
+
+    <level id = '4'>
+        <block>260_660_0_0</block>
+        <block>460_960_1_0</block>
+        <block>410_710_1_90</block>
+        <block>460_460_1_0</block>
+        <block>510_610_1_90</block>
+        <block>510_810_1_90</block>
+        <moves>3</moves>
+    </level>
+
+    <level id = '5'>
+        <block>260_660_0_0</block>
+        <block>510_560_2_90</block>
+        <block>610_710_1_90</block>
+        <block>460_960_1_0</block>
+        <block>110_710_1_90</block>
+        <block>260_960_1_0</block>
+        <moves>4</moves>
+    </level>
+
+    <level id = '6'>
+        <block>260_660_0_0</block>
+        <block>460_760_1_0</block>
+        <block>410_610_1_90</block>
+        <block>360_460_1_0</block>
+        <block>310_810_1_90</block>
+        <block>110_560_2_90</block>
+        <moves>2</moves>
+    </level>
+
+    <level id = '7'>
+        <block>260_660_0_0</block>
+        <block>410_860_2_0</block>
+        <block>560_960_1_0</block>
+        <block>110_910_1_90</block>
+        <block>560_760_1_0</block>
+        <block>510_560_2_90</block>
+        <moves>4</moves>
+    </level>
+
+    <level id = '8'>
+        <block>260_660_0_0</block>
+        <block>510_960_2_0</block>
+        <block>460_860_1_0</block>
+        <block>210_810_1_90</block>
+        <block>160_460_1_0</block>
+        <block>610_760_2_90</block>
+        <block>410_510_1_90</block>
+        <moves>2</moves>
+    </level>
+
+    <level id = '9'>
+        <block>160_660_0_0</block>
+        <block>510_860_2_0</block>
+        <block>110_910_1_90</block>
+        <block>160_460_1_0</block>
+        <block>310_510_1_90</block>
+        <block>310_710_1_90</block>
+        <block>510_610_1_90</block>
+        <moves>2</moves>
+    </level>
+
+    <level id = '10'>
+        <block>260_660_0_0</block>
+        <block>310_760_2_0</block>
+        <block>410_910_1_90</block>
+        <block>560_860_1_0</block>
+        <block>510_660_2_90</block>
+        <block>610_510_1_90</block>
+        <block>610_710_1_90</block>
+        <moves>5</moves>
+    </level>
+
+    <level id = '11'>
+        <block>160_660_0_0</block>
+        <block>310_710_1_90</block>
+        <block>360_560_1_0</block>
+        <block>510_510_1_90</block>
+        <block>410_710_1_90</block>
+        <block>510_710_1_90</block>
+        <block>410_860_2_0</block>
+        <moves>5</moves>
+    </level>
+
+    <level id = '12'>
+        <block>160_660_0_0</block>
+        <block>310_710_1_90</block>
+        <block>360_560_1_0</block>
+        <block>510_610_1_90</block>
+        <block>410_710_1_90</block>
+        <block>210_860_2_0</block>
+        <moves>4</moves>
+    </level>
+
+    <level id = '13'>
+        <block>160_660_0_0</block>
+        <block>310_610_1_90</block>
+        <block>360_460_1_0</block>
+        <block>610_560_2_90</block>
+        <block>510_610_1_90</block>
+        <block>160_560_1_0</block>
+        <block>360_760_1_0</block>
+        <block>560_760_1_0</block>
+        <block>210_810_1_90</block>
+        <moves>6</moves>
+    </level>
+
+    <level id = '14'>
+        <block>360_660_0_0</block>
+        <block>410_510_1_90</block>
+        <block>610_860_2_90</block>
+        <block>510_710_1_90</block>
+        <block>460_860_1_0</block>
+        <block>260_860_1_0</block>
+        <block>210_710_1_90</block>
+        <block>310_510_1_90</block>
+        <block>510_510_1_90</block>
+        <moves>3</moves>
+    </level>
+
+    <level id = '15'>
+        <block>160_660_0_0</block>
+        <block>610_710_1_90</block>
+        <block>410_660_2_90</block>
+        <block>560_460_1_0</block>
+        <block>410_860_2_0</block>
+        <block>310_710_1_90</block>
+        <moves>4</moves>
+    </level>
+
+    <level id = '16'>
+        <block>160_660_0_0</block>
+        <block>610_710_1_90</block>
+        <block>410_660_2_90</block>
+        <block>260_760_1_0</block>
+        <block>410_860_2_0</block>
+        <block>310_610_1_90</block>
+        <block>510_960_2_0</block>
+        <block>310_460_2_0</block>
+        <moves>6</moves>
+    </level>
+
+    <level id = '17'>
+        <block>160_660_0_0</block>
+        <block>610_560_2_90</block>
+        <block>310_660_2_90</block>
+        <block>460_860_1_0</block>
+        <block>210_510_1_90</block>
+        <block>560_960_1_0</block>
+        <moves>3</moves>
+    </level>
+
+    <level id = '18'>
+        <block>260_660_0_0</block>
+        <block>510_560_2_90</block>
+        <block>110_860_2_90</block>
+        <block>460_760_1_0</block>
+        <block>610_510_1_90</block>
+        <block>360_860_1_0</block>
+        <block>210_860_2_90</block>
+        <block>610_710_1_90</block>
+        <block>160_460_1_0</block>
+        <moves>3</moves>
+    </level>
+
+    <level id = '19'>
+        <block>260_660_0_0</block>
+        <block>610_560_2_90</block>
+        <block>560_760_1_0</block>
+        <block>260_760_1_0</block>
+        <block>110_910_1_90</block>
+        <block>260_460_1_0</block>
+        <block>210_910_1_90</block>
+        <block>310_910_1_90</block>
+        <block>410_910_1_90</block>
+        <block>110_710_1_90</block>
+        <block>410_710_1_90</block>
+        <block>260_560_1_0</block>
+        <moves>3</moves>
+    </level>
+
+    <level id = '20'>
+        <block>260_660_0_0</block>
+        <block>410_560_2_90</block>
+        <block>310_860_2_0</block>
+        <block>110_710_1_90</block>
+        <block>610_910_1_90</block>
+        <block>160_560_1_0</block>
+        <block>110_910_1_90</block>
+        <block>210_460_2_0</block>
+        <block>560_560_1_0</block>
+        <moves>7</moves>
+    </level>
+
+    <level id = '21'>
+        <block>160_660_0_0</block>
+        <block>610_710_1_90</block>
+        <block>260_460_1_0</block>
+        <block>210_810_1_90</block>
+        <block>410_760_2_0</block>
+        <block>560_960_1_0</block>
+        <block>360_960_1_0</block>
+        <block>560_860_1_0</block>
+        <block>560_560_1_0</block>
+        <block>410_510_1_90</block>
+        <block>310_610_1_90</block>
+        <block>110_510_1_90</block>
+        <moves>6</moves>
+    </level>
+
+    <level id = '22'>
+        <block>160_660_0_0</block>
+        <block>360_460_1_0</block>
+        <block>110_510_1_90</block>
+        <block>610_560_2_90</block>
+        <block>510_560_2_90</block>
+        <block>310_710_1_90</block>
+        <block>560_860_1_0</block>
+        <block>410_960_2_0</block>
+        <block>260_860_1_0</block>
+        <moves>7</moves>
+    </level>
+
+    <level id = '23'>
+        <block>160_660_0_0</block>
+        <block>560_460_1_0</block>
+        <block>110_510_1_90</block>
+        <block>310_560_2_90</block>
+        <block>510_560_2_0</block>
+        <block>210_960_2_0</block>
+        <block>210_860_2_0</block>
+        <block>610_910_1_90</block>
+        <block>510_710_1_90</block>
+        <moves>8</moves>
+    </level>
+
+    <level id = '24'>
+        <block>160_660_0_0</block>
+        <block>560_460_1_0</block>
+        <block>510_710_1_90</block>
+        <block>610_660_2_90</block>
+        <block>510_960_2_0</block>
+        <block>460_560_1_0</block>
+        <block>210_510_1_90</block>
+        <block>310_660_2_90</block>
+        <block>210_810_1_90</block>
+        <moves>8</moves>
+    </level>
+
+    <level id = '25'>
+        <block>160_660_0_0</block>
+        <block>560_460_1_0</block>
+        <block>510_910_1_90</block>
+        <block>410_760_2_0</block>
+        <block>360_860_1_0</block>
+        <block>210_510_1_90</block>
+        <block>310_560_2_90</block>
+        <block>210_810_1_90</block>
+        <block>360_960_1_0</block>
+        <block>610_810_1_90</block>
+        <block>610_610_1_90</block>
+        <moves>11</moves>
+    </level>
+
+    <level id = '26'>
+        <block>460_660_0_0</block>
+        <block>560_460_1_0</block>
+        <block>510_860_2_0</block>
+        <block>310_910_1_90</block>
+        <block>610_660_2_90</block>
+        <block>210_910_1_90</block>
+        <block>260_760_1_0</block>
+        <block>310_610_1_90</block>
+        <block>210_610_1_90</block>
+        <block>260_460_1_0</block>
+        <block>410_510_1_90</block>
+        <moves>6</moves>
+    </level>
+
+    <level id = '27'>
+        <block>360_660_0_0</block>
+        <block>160_760_1_0</block>
+        <block>310_960_2_0</block>
+        <block>210_560_2_90</block>
+        <block>510_710_1_90</block>
+        <block>110_910_1_90</block>
+        <block>360_860_1_0</block>
+        <block>560_860_1_0</block>
+        <block>610_610_1_90</block>
+        <block>510_460_2_0</block>
+        <moves>5</moves>
+    </level>
+
+    <level id = '28'>
+        <block>160_660_0_0</block>
+        <block>260_560_1_0</block>
+        <block>510_660_2_90</block>
+        <block>410_510_1_90</block>
+        <block>260_460_1_0</block>
+        <block>610_660_2_90</block>
+        <block>560_860_1_0</block>
+        <block>360_760_1_0</block>
+        <block>310_910_1_90</block>
+        <block>110_860_2_90</block>
+        <moves>9</moves>
+    </level>
+
+    <level id = '29'>
+        <block>160_660_0_0</block>
+        <block>610_710_1_90</block>
+        <block>160_560_1_0</block>
+        <block>310_660_2_90</block>
+        <block>160_760_1_0</block>
+        <block>310_860_2_0</block>
+        <block>210_960_2_0</block>
+        <block>510_810_1_90</block>
+        <block>560_560_1_0</block>
+        <block>560_460_1_0</block>
+        <moves>8</moves>
+    </level>
+
+    <level id = '30'>
+        <block>260_660_0_0</block>
+        <block>310_810_1_90</block>
+        <block>110_860_2_90</block>
+        <block>210_560_2_0</block>
+        <block>560_760_1_0</block>
+        <block>210_860_2_90</block>
+        <block>410_810_1_90</block>
+        <block>410_610_1_90</block>
+        <block>310_460_2_0</block>
+        <block>510_610_1_90</block>
+        <block>510_910_1_90</block>
+        <block>610_560_2_90</block>
+        <moves>6</moves>
+    </level>
+
+    <level id = '31'>
+        <block>160_660_0_0</block>
+        <block>410_560_2_90</block>
+        <block>260_560_1_0</block>
+        <block>310_710_1_90</block>
+        <block>260_860_1_0</block>
+        <block>460_860_1_0</block>
+        <block>360_960_1_0</block>
+        <block>110_860_2_90</block>
+        <moves>5</moves>
+    </level>
+
+    <level id = '32'>
+        <block>160_660_0_0</block>
+        <block>310_560_2_90</block>
+        <block>260_860_1_0</block>
+        <block>110_510_1_90</block>
+        <block>610_660_2_90</block>
+        <block>510_610_1_90</block>
+        <moves>4</moves>
+    </level>
+
+    <level id = '33'>
+        <block>160_660_0_0</block>
+        <block>610_560_2_90</block>
+        <block>360_860_1_0</block>
+        <block>310_610_1_90</block>
+        <block>210_760_2_0</block>
+        <block>560_860_1_0</block>
+        <block>160_560_1_0</block>
+        <block>160_460_1_0</block>
+        <block>360_460_1_0</block>
+        <moves>5</moves>
+    </level>
+
+    <level id = '34'>
+        <block>160_660_0_0</block>
+        <block>410_560_2_90</block>
+        <block>360_960_1_0</block>
+        <block>510_710_1_90</block>
+        <block>310_860_2_0</block>
+        <block>160_760_1_0</block>
+        <block>160_560_1_0</block>
+        <block>560_560_1_0</block>
+        <block>110_910_1_90</block>
+        <moves>7</moves>
+    </level>
+
+    <level id = '35'>
+        <block>260_660_0_0</block>
+        <block>510_560_2_90</block>
+        <block>460_960_1_0</block>
+        <block>510_860_2_0</block>
+        <block>260_560_1_0</block>
+        <block>210_810_1_90</block>
+        <block>310_810_1_90</block>
+        <block>610_560_2_90</block>
+        <moves>9</moves>
+    </level>
+
+    <level id = '36'>
+        <block>160_660_0_0</block>
+        <block>360_460_1_0</block>
+        <block>160_760_1_0</block>
+        <block>110_910_1_90</block>
+        <block>210_910_1_90</block>
+        <block>610_660_2_90</block>
+        <block>110_510_1_90</block>
+        <block>210_510_1_90</block>
+        <block>560_460_1_0</block>
+        <block>360_960_1_0</block>
+        <block>360_860_1_0</block>
+        <block>560_860_1_0</block>
+        <moves>6</moves>
+    </level>
+
+    <level id = '37'>
+        <block>460_660_0_0</block>
+        <block>160_760_1_0</block>
+        <block>560_760_1_0</block>
+        <block>110_910_1_90</block>
+        <block>310_760_2_90</block>
+        <block>410_510_1_90</block>
+        <block>510_510_1_90</block>
+        <block>260_560_1_0</block>
+        <block>360_960_1_0</block>
+        <block>560_960_1_0</block>
+        <block>510_860_2_0</block>
+        <block>610_560_2_90</block>
+        <moves>7</moves>
+    </level>
+
+    <level id = '38'>
+        <block>160_660_0_0</block>
+        <block>260_860_1_0</block>
+        <block>110_810_1_90</block>
+        <block>510_510_1_90</block>
+        <block>260_460_1_0</block>
+        <block>310_560_2_0</block>
+        <block>610_560_2_90</block>
+        <block>110_510_1_90</block>
+        <block>310_710_1_90</block>
+        <block>410_860_2_90</block>
+        <moves>5</moves>
+    </level>
+
+    <level id = '39'>
+        <block>260_660_0_0</block>
+        <block>560_960_1_0</block>
+        <block>110_910_1_90</block>
+        <block>410_610_1_90</block>
+        <block>160_560_1_0</block>
+        <block>510_860_2_0</block>
+        <block>610_560_2_90</block>
+        <block>110_710_1_90</block>
+        <block>510_610_1_90</block>
+        <block>360_960_1_0</block>
+        <block>510_760_2_0</block>
+        <block>360_460_1_0</block>
+        <moves>8</moves>
+    </level>
+
+    <level id = '40'>
+        <block>160_660_0_0</block>
+        <block>410_960_2_0</block>
+        <block>510_560_2_90</block>
+        <block>110_510_1_90</block>
+        <block>210_510_1_90</block>
+        <block>310_710_1_90</block>
+        <block>410_710_1_90</block>
+        <block>610_510_1_90</block>
+        <block>610_710_1_90</block>
+        <moves>5</moves>
+    </level>
+
+    <level id = '41'>
+        <block>260_660_0_0</block>
+        <block>410_560_2_90</block>
+        <block>110_510_1_90</block>
+        <block>210_510_1_90</block>
+        <block>110_710_1_90</block>
+        <block>510_710_1_90</block>
+        <block>310_910_1_90</block>
+        <block>360_760_1_0</block>
+        <block>560_460_1_0</block>
+        <block>560_560_1_0</block>
+        <block>160_860_1_0</block>
+        <block>460_860_1_0</block>
+        <block>460_960_1_0</block>
+        <moves>7</moves>
+    </level>
+
+    <level id = '42'>
+        <block>160_660_0_0</block>
+        <block>210_560_2_0</block>
+        <block>610_610_1_90</block>
+        <block>210_810_1_90</block>
+        <block>410_610_1_90</block>
+        <block>310_710_1_90</block>
+        <block>160_960_1_0</block>
+        <block>510_510_1_90</block>
+        <block>510_760_2_0</block>
+        <block>410_910_1_90</block>
+        <moves>3</moves>
+    </level>
+
+    <level id = '43'>
+        <block>460_660_0_0</block>
+        <block>510_460_2_0</block>
+        <block>610_610_1_90</block>
+        <block>160_960_1_0</block>
+        <block>510_860_2_90</block>
+        <block>160_860_1_0</block>
+        <block>360_960_1_0</block>
+        <block>360_860_1_0</block>
+        <block>260_760_1_0</block>
+        <block>610_810_1_90</block>
+        <block>310_560_2_90</block>
+        <moves>4</moves>
+    </level>
+
+    <level id = '44'>
+        <block>160_660_0_0</block>
+        <block>310_760_2_0</block>
+        <block>610_610_1_90</block>
+        <block>510_610_1_90</block>
+        <block>410_610_1_90</block>
+        <block>110_510_1_90</block>
+        <block>310_460_2_0</block>
+        <moves>4</moves>
+    </level>
+
+    <level id = '45'>
+        <block>360_660_0_0</block>
+        <block>610_510_1_90</block>
+        <block>510_610_1_90</block>
+        <block>160_760_1_0</block>
+        <block>110_910_1_90</block>
+        <block>410_460_2_0</block>
+        <block>110_510_1_90</block>
+        <block>610_710_1_90</block>
+        <block>460_760_1_0</block>
+        <block>560_860_1_0</block>
+        <moves>4</moves>
+    </level>
+
+    <level id = '46'>
+        <block>160_660_0_0</block>
+        <block>210_910_1_90</block>
+        <block>360_860_1_0</block>
+        <block>460_460_1_0</block>
+        <block>560_860_1_0</block>
+        <block>560_960_1_0</block>
+        <block>260_760_1_0</block>
+        <block>110_860_2_90</block>
+        <block>310_610_1_90</block>
+        <block>260_460_1_0</block>
+        <block>610_560_2_90</block>
+        <moves>9</moves>
+    </level>
+
+    <level id = '47'>
+        <block>160_660_0_0</block>
+        <block>110_810_1_90</block>
+        <block>560_460_1_0</block>
+        <block>510_760_2_0</block>
+        <block>260_960_1_0</block>
+        <block>310_760_2_90</block>
+        <block>610_910_1_90</block>
+        <block>610_610_1_90</block>
+        <block>310_560_2_0</block>
+        <block>110_510_1_90</block>
+        <moves>4</moves>
+    </level>
+
+    <level id = '48'>
+        <block>460_660_0_0</block>
+        <block>510_810_1_90</block>
+        <block>360_760_1_0</block>
+        <block>110_560_2_90</block>
+        <block>610_910_1_90</block>
+        <block>610_710_1_90</block>
+        <block>510_560_2_0</block>
+        <block>210_510_1_90</block>
+        <block>510_460_2_0</block>
+        <block>160_760_1_0</block>
+        <block>410_910_1_90</block>
+        <block>210_910_1_90</block>
+        <block>310_560_2_90</block>
+        <moves>6</moves>
+    </level>
+
+</game> 
