@@ -1,0 +1,125 @@
+
+santa.png
+size: 707,795
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+batoh
+  rotate: false
+  xy: 455, 0
+  size: 252, 221
+  orig: 252, 221
+  offset: 0, 0
+  index: -1
+dom
+  rotate: false
+  xy: 0, 0
+  size: 455, 406
+  orig: 455, 406
+  offset: 0, 0
+  index: -1
+nohy
+  rotate: false
+  xy: 0, 406
+  size: 483, 133
+  orig: 483, 133
+  offset: 0, 0
+  index: -1
+ruka_L
+  rotate: false
+  xy: 0, 686
+  size: 115, 109
+  orig: 115, 109
+  offset: 0, 0
+  index: -1
+telo
+  rotate: false
+  xy: 455, 221
+  size: 227, 179
+  orig: 227, 179
+  offset: 0, 0
+  index: -1
+ruka_R
+  rotate: false
+  xy: 0, 539
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+brada
+  rotate: false
+  xy: 483, 400
+  size: 179, 224
+  orig: 179, 224
+  offset: 0, 0
+  index: -1
+tvar
+  rotate: false
+  xy: 147, 665
+  size: 126, 109
+  orig: 126, 109
+  offset: 0, 0
+  index: -1
+usta
+  rotate: false
+  xy: 326, 669
+  size: 42, 53
+  orig: 42, 53
+  offset: 0, 0
+  index: -1
+fuzy
+  rotate: false
+  xy: 463, 624
+  size: 130, 84
+  orig: 130, 84
+  offset: 0, 0
+  index: -1
+nos
+  rotate: false
+  xy: 273, 722
+  size: 46, 49
+  orig: 46, 49
+  offset: 0, 0
+  index: -1
+ciapka2
+  rotate: false
+  xy: 312, 539
+  size: 151, 130
+  orig: 151, 130
+  offset: 0, 0
+  index: -1
+ciapka1
+  rotate: false
+  xy: 147, 539
+  size: 165, 126
+  orig: 165, 126
+  offset: 0, 0
+  index: -1
+gula
+  rotate: false
+  xy: 273, 669
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1
+obocie1
+  rotate: false
+  xy: 593, 624
+  size: 39, 21
+  orig: 39, 21
+  offset: 0, 0
+  index: -1
+obocie2
+  rotate: false
+  xy: 368, 669
+  size: 39, 42
+  orig: 39, 42
+  offset: 0, 0
+  index: -1
+ucho
+  rotate: false
+  xy: 407, 669
+  size: 39, 42
+  orig: 39, 42
+  offset: 0, 0
+  index: -1

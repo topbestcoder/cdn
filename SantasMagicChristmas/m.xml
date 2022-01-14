@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<stringresources>
+    <strings>
+
+        <string id="PAUSED" index="7">
+            <en>PAUSED</en>
+            <es>PAUSA</es>
+            <de>ANGEHALTEN</de>
+            <it>PAUSA</it>
+            <fr>PAUSE</fr>
+            <ru>ПАУЗА</ru>
+            <pt>PAUSADO</pt>
+            <nl>PAUZEREN</nl>
+            <no>PAUSET</no>
+        </string>
+
+        <string id="LEVEL">
+            <en>LEVEL</en>
+            <es>NIVEL</es>
+            <de>LEVEL</de>
+            <it>LIVELLO</it>
+            <fr>NIVEAU</fr>
+            <pt>NÍVEL</pt>
+            <ru>УРОВЕНЬ</ru>
+            <nl></nl>
+            <no></no>
+        </string>
+        <string id="LOADING">
+            <en>LOADING</en>
+            <es>Cargando</es>
+            <de>Lädt</de>
+            <it>il caricamento</it>
+            <fr>Chargement</fr>
+            <pt>Carregando</pt>
+            <ru>загрузка</ru>
+            <nl></nl>
+            <no></no>
+        </string>
+
+        <string id="GIFT UNLOCKED">
+            <en>Gift unlocked</en>
+            <es>Regalo desbloqueado</es>
+            <de>Geschenk freigeschaltet</de>
+            <it>Regalo sbloccato</it>
+            <fr>Cadeau déverrouillé</fr>
+            <pt>Presente desbloqueado</pt>
+            <ru>Подарок разблокирован</ru>
+            <nl></nl>
+            <no></no>
+        </string>
+
+
+
+        <string id="TAP_TO_PLAY">
+            <en>TAP TO PLAY</en>
+            <es>TOQUE PARA JUGAR</es>
+            <de>BERÜHRE UM ZU SPIELEN</de>
+            <it>TOCCA PER GIOCARE</it>
+            <fr>APPUYEZ POUR JOUER</fr>
+            <ru>Нажмите, чтобы играть</ru>
+            <pt>TOQUE PARA JOGAR</pt>
+            <nl>TRYCK FÖR ATT SPELA</nl>
+            <no>Tapp for å spille</no>
+        </string>
+
+        <string id="INSTRUCTIONS_AIM">
+            <en>Match 3 or more baubles to destroy rows of baubles. Use power ups to destroy more baubles or combine 3 bags to unlock a random bomb. Combine 3 gifts to successfully complete a level.</en>
+            <de>Kombiniere 3 oder mehr Baumkugeln, um Reihen von Kugeln zu zerstören. Verwende Power-ups, um mehr Kugeln zu zerstören, oder kombiniere 3 Säcke, um eine zufällige Bombe freizuschalten. Kombiniere 3 Geschenke, um erfolgreich einen Level abzuschließen.</de>
+            <es>Combina 3 o más bolas de Navidad para destruir las filas de bolas. Usa los potenciadores para destruir más bolas o combina 3 bolsas para desbloquear una bomba aleatoria. Combina 3 regalos para completar el nivel.</es>
+            <fr>Combinez 3 boules de Noël ou plus pour supprimer des rangées de boules. Utilisez des bonus pour supprimer plus de boules ou combinez 3 sacs pour déverrouiller une bombe aléatoire. Combinez 3 cadeaux pour réussir un niveau.</fr>
+            <it>Abbina 3 o più palline per distruggere le file. Usa i potenziamenti per distruggere più palline o combina 3 sacchi per sbloccare una bomba casuale. Abbina 3 regali per completare un livello.</it>
+            <pt>Combine 3 ou mais enfeites para destruir fileiras de enfeites. Use power-ups para destruir mais enfeites ou combinar 3 sacos para desbloquear uma bomba aleatória. Combine 3 presentes para concluir com sucesso um nível.</pt>
+            <ru>Составляй ряды из 3 или более шариков, чтобы уничтожить ряды шариков. Используй бонусы, чтобы уничтожить больше шариков, или объедини 3 сумки, чтобы разблокировать случайную бомбу. Объедини 3 подарка, чтобы успешно пройти уровень.</ru>
+            <nl></nl>
+            <no></no>
+        </string>
+
+        <string id="COMPLETED">
+            <en>COMPLETED</en>
+            <es>COMPLETADO</es>
+            <de>ABGESCHLOSSEN</de>
+            <it>COMPLETATO</it>
+            <fr>TERMINÉ</fr>
+            <ru>ПРОЙДЕН</ru>
+            <pt>CONCLUÍDO</pt>
+            <nl></nl>
+            <no></no>
+        </string>
+
+
+        <string id="ONBOARDING0">
+            <en>Match 3 block or more to destroy the blocks and clear them from the game.</en>
+            <de>Kombiniere 3 oder mehr Blöcke, um sie zu zerstören und aus dem Spiel zu entfernen.</de>
+            <es>Combina 3 bloques o más para destruirlos y que desaparezcan del tablero.</es>
+            <fr>Associez 3 blocs ou plus pour détruire les blocs et les retirer de l'écran de jeu.</fr>
+            <it>Abbina 3 o più blocchi per distruggerli e rimuoverli dal gioco.</it>
+            <pt>Combine 3 blocos ou mais para destruir os blocos e eliminá-los do jogo.</pt>
+            <ru>Составляй ряды из 3 или более блоков, чтобы уничтожить блоки и удалить их из игры.</ru>
+            <nl></nl>
+            <no></no>
+        </string>
+
+
+        <string id="ONBOARDING1">
+            <en>Use power ups to clear more blocks or collect 3 random blocks to make a power up that you can use.</en>
+            <de>Verwende Power-ups, um mehr Blöcke zu entfernen, oder sammle 3 zufällige Blöcke ein, um ein zufälliges Power-up zu erzeugen, das du verwenden kannst.</de>
+            <es>Usa potenciadores para eliminar más bloques o recoge 3 bloques al azar para obtener un potenciador.</es>
+            <fr>Utilisez des bonus pour retirer plus de blocs ou récupérez 3 blocs aléatoires pour créer un bonus que vous pouvez utiliser.</fr>
+            <it>Usa i potenziamenti per eliminare più blocchi o raccogli 3 blocchi casuali per creare un potenziamento da utilizzare.</it>
+            <pt>Use power-ups para limpar mais blocos ou coletar 3 blocos aleatórios para criar um power-up para usar.</pt>
+            <ru>Используй бонусы, чтобы удалить больше блоков, или собери 3 случайных блока, чтобы сделать бонус, который ты сможешь использовать.</ru>
+            <nl></nl>
+            <no></no>
+        </string>
+
+        <string id="ONBOARDING2">
+            <en>Hit 3 pairs of gifts to finish the level and unlock the new level.</en>
+            <de>Sammle 3 Paare von Geschenken, um den Level abzuschließen und einen neuen Level freizuschalten.</de>
+            <es>Combina 3 parejas de regalos para terminar el nivel y desbloquear el siguiente.</es>
+            <fr>Heurtez 3 paires de cadeaux pour terminer le niveau et déverrouiller le niveau suivant.</fr>
+            <it>Colpisci 3 coppie di regali per completare il livello e sbloccarne uno nuovo.</it>
+            <pt>Acerte 3 pares de presentes para terminar o nível e desbloquear o novo nível.</pt>
+            <ru>Ударь 3 пары подарков, чтобы пройти уровень и открыть новый уровень.</ru>
+            <nl></nl>
+            <no></no>
+        </string>
+
+
+
+
+        <string id="VOID">
+            <en></en>
+            <es></es>
+            <de></de>
+            <it></it>
+            <fr></fr>
+            <ru></ru>
+            <pt></pt>
+            <nl></nl>
+            <no></no>
+        </string>
+
+    </strings>
+</stringresources>
