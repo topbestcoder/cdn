@@ -1,0 +1,690 @@
+{
+  "skeleton": {
+    "hash": "77pXdZNsN/+XWaZ+/bZneVGWE4s",
+    "spine": "3.6.53",
+    "width": 694,
+    "height": 1178,
+    "images": "./Images/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "asteroid1",
+      "parent": "root",
+      "x": -187,
+      "y": 751
+    },
+    {
+      "name": "asteroid2",
+      "parent": "root",
+      "x": 276,
+      "y": 682
+    },
+    {
+      "name": "asteroid3",
+      "parent": "root",
+      "x": -298,
+      "y": 405
+    },
+    {
+      "name": "asteroid4",
+      "parent": "root",
+      "x": 138,
+      "y": 112
+    },
+    {
+      "name": "galaxy",
+      "parent": "root",
+      "x": -1,
+      "y": 907
+    },
+    {
+      "name": "more_games_button",
+      "parent": "root",
+      "x": -1,
+      "y": 415.56
+    },
+    {
+      "name": "nightmare_mode_button",
+      "parent": "root",
+      "y": 547.8
+    },
+    {
+      "name": "play_from_level_1_button",
+      "parent": "root",
+      "y": 676.32
+    }
+  ],
+  "slots": [
+    {
+      "name": "galaxy",
+      "bone": "galaxy",
+      "attachment": "galaxy"
+    },
+    {
+      "name": "asteroid4",
+      "bone": "asteroid4",
+      "attachment": "asteroid4"
+    },
+    {
+      "name": "asteroid3",
+      "bone": "asteroid3",
+      "attachment": "asteroid3"
+    },
+    {
+      "name": "asteroid2",
+      "bone": "asteroid2",
+      "attachment": "asteroid2"
+    },
+    {
+      "name": "asteroid1",
+      "bone": "asteroid1",
+      "attachment": "asteroid1"
+    },
+    {
+      "name": "logo",
+      "bone": "root",
+      "attachment": "logo"
+    },
+    {
+      "name": "more_games_button_border",
+      "bone": "more_games_button",
+      "attachment": "more_games_button_border"
+    },
+    {
+      "name": "more_games_button_text",
+      "bone": "more_games_button",
+      "attachment": "more_games_button_text"
+    },
+    {
+      "name": "more_games_button_background",
+      "bone": "more_games_button",
+      "color": "ffffff12",
+      "attachment": "more_games_button_background"
+    },
+    {
+      "name": "nightmare_mode_button_background",
+      "bone": "nightmare_mode_button",
+      "color": "ffffff18",
+      "attachment": "nightmare_mode_button_background"
+    },
+    {
+      "name": "nightmare_mode_button_border",
+      "bone": "nightmare_mode_button",
+      "attachment": "nightmare_mode_button_border"
+    },
+    {
+      "name": "nightmare_mode_button_text",
+      "bone": "nightmare_mode_button",
+      "attachment": "nightmare_mode_button_text"
+    },
+    {
+      "name": "nightmare_mode_button_disabled",
+      "bone": "nightmare_mode_button",
+      "attachment": "nightmare_mode_button_disabled"
+    },
+    {
+      "name": "play_from_level_1_button_background",
+      "bone": "play_from_level_1_button",
+      "color": "ffffff18",
+      "attachment": "play_from_level_1_button_background"
+    },
+    {
+      "name": "play_from_level_1_button_border",
+      "bone": "play_from_level_1_button",
+      "attachment": "play_from_level_1_button_border"
+    },
+    {
+      "name": "play_from_level_1_button_text",
+      "bone": "play_from_level_1_button",
+      "attachment": "play_from_level_1_button_text"
+    }
+  ],
+  "skins": {
+    "default": {
+      "asteroid1": {
+        "asteroid1": {
+          "width": 52,
+          "height": 56
+        }
+      },
+      "asteroid2": {
+        "asteroid2": {
+          "x": 33.12,
+          "width": 52,
+          "height": 76
+        }
+      },
+      "asteroid3": {
+        "asteroid3": {
+          "width": 37,
+          "height": 41
+        }
+      },
+      "asteroid4": {
+        "asteroid4": {
+          "width": 84,
+          "height": 72
+        }
+      },
+      "galaxy": {
+        "galaxy": {
+          "width": 694,
+          "height": 694
+        }
+      },
+      "logo": {
+        "logo": {
+          "y": 929,
+          "width": 618,
+          "height": 267
+        }
+      },
+      "more_games_button_background": {
+        "more_games_button_background": {
+          "width": 454,
+          "height": 96
+        }
+      },
+      "more_games_button_border": {
+        "more_games_button_border": {
+          "width": 454,
+          "height": 96
+        }
+      },
+      "more_games_button_text": {
+        "more_games_button_text": {
+          "x": -1,
+          "y": 4,
+          "width": 454,
+          "height": 96
+        }
+      },
+      "nightmare_mode_button_background": {
+        "nightmare_mode_button_background": {
+          "width": 541,
+          "height": 102
+        }
+      },
+      "nightmare_mode_button_border": {
+        "nightmare_mode_button_border": {
+          "width": 541,
+          "height": 102
+        }
+      },
+      "nightmare_mode_button_text": {
+        "nightmare_mode_button_text": {
+          "width": 541,
+          "height": 102
+        }
+      },
+      "nightmare_mode_button_disabled": {
+        "nightmare_mode_button_disabled": {
+          "width": 541,
+          "height": 102
+        }
+      },
+      "play_from_level_1_button_background": {
+        "play_from_level_1_button_background": {
+          "width": 566,
+          "height": 96
+        }
+      },
+      "play_from_level_1_button_border": {
+        "play_from_level_1_button_border": {
+          "width": 566,
+          "height": 96
+        }
+      },
+      "play_from_level_1_button_text": {
+        "play_from_level_1_button_text": {
+          "width": 566,
+          "height": 96
+        }
+      }
+    }
+  },
+  "animations": {
+    "asteroid1_idle": {
+      "bones": {
+        "asteroid1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.726,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "x": 0,
+              "y": -19,
+              "curve": [
+                0.25,
+                0,
+                0.699,
+                1
+              ]
+            },
+            {
+              "time": 6.6333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      }
+    },
+    "asteroid2_idle": {
+      "bones": {
+        "asteroid2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.485,
+                0.1,
+                0.585,
+                0.93
+              ]
+            },
+            {
+              "time": 4,
+              "x": 0,
+              "y": -15,
+              "curve": [
+                0.309,
+                0.01,
+                0.648,
+                0.93
+              ]
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      }
+    },
+    "asteroid3_idle": {
+      "bones": {
+        "asteroid3": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "x": 0,
+              "y": 13,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 6.6667,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      }
+    },
+    "asteroid4_idle": {
+      "bones": {
+        "asteroid4": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.5,
+              "x": 0,
+              "y": -26,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 5,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      }
+    },
+    "buttons_start": {
+      "slots": {
+        "more_games_button_background": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff12"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffff12"
+            },
+            {
+              "time": 0.7667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.9,
+              "color": "ffffff12"
+            }
+          ]
+        },
+        "more_games_button_text": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff80"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7667,
+              "color": "ffffff80"
+            },
+            {
+              "time": 0.9,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      }
+    },
+    "galaxy_idle": {
+      "slots": {
+        "galaxy": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff80"
+            },
+            {
+              "time": 10,
+              "color": "ffffffff"
+            },
+            {
+              "time": 20,
+              "color": "ffffff80"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "galaxy": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 3.3333,
+              "angle": 60
+            },
+            {
+              "time": 6.6667,
+              "angle": 120
+            },
+            {
+              "time": 10,
+              "angle": 180
+            },
+            {
+              "time": 13.3333,
+              "angle": -120
+            },
+            {
+              "time": 16.6667,
+              "angle": -60
+            },
+            {
+              "time": 20,
+              "angle": -0.1
+            }
+          ]
+        }
+      }
+    },
+    "more_games_button_out": {
+      "slots": {
+        "more_games_button_background": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff12",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff12"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "more_games_button": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.15,
+              "y": 1.15
+            },
+            {
+              "time": 0.1667,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      }
+    },
+    "more_games_button_over": {
+      "slots": {
+        "more_games_button_background": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff12"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff24"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "more_games_button": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.1667,
+              "x": 1.15,
+              "y": 1.15
+            }
+          ]
+        }
+      }
+    },
+    "nightmare_mode_button_out": {
+      "slots": {
+        "nightmare_mode_button_background": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff18"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff12"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "nightmare_mode_button": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.15,
+              "y": 1.15
+            },
+            {
+              "time": 0.1667,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      }
+    },
+    "nightmare_mode_button_over": {
+      "slots": {
+        "nightmare_mode_button_background": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff12"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff18"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "nightmare_mode_button": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.1667,
+              "x": 1.15,
+              "y": 1.15
+            }
+          ]
+        }
+      }
+    },
+    "play_from_level_1_button_out": {
+      "slots": {
+        "play_from_level_1_button_background": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff18"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff12"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "play_from_level_1_button": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.15,
+              "y": 1.15
+            },
+            {
+              "time": 0.1667,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      }
+    },
+    "play_from_level_1_button_over": {
+      "slots": {
+        "play_from_level_1_button_background": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff12"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff18"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "play_from_level_1_button": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.1667,
+              "x": 1.15,
+              "y": 1.15
+            }
+          ]
+        }
+      }
+    }
+  }
+}

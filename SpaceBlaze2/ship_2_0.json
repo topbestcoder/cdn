@@ -1,0 +1,37 @@
+{
+"skeleton": { "hash": "+Wf3H/yoFOYIkAn846wdi/dMcRY", "spine": "3.6.53", "width": 154, "height": 145.28, "images": "./Images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "engine", "parent": "root" },
+	{ "name": "ship", "parent": "root" }
+],
+"slots": [
+	{ "name": "engine", "bone": "engine", "attachment": "enemies/ship_2_0_engine" },
+	{ "name": "ship", "bone": "ship", "attachment": "enemies/ship_2_0" }
+],
+"skins": {
+	"default": {
+		"engine": {
+			"enemies/ship_2_0_engine": { "y": 53.78, "width": 25, "height": 56 }
+		},
+		"ship": {
+			"enemies/ship_2_0": { "width": 154, "height": 127 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"bones": {
+			"engine": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2333, "x": 1.25, "y": 1.35 },
+					{ "time": 0.4667, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"shield": {},
+	"shoot": {}
+}
+}

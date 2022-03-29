@@ -1,0 +1,37 @@
+{
+"skeleton": { "hash": "+f3/HlXC+AxF2xbmgJBjuyBWvfQ", "spine": "3.6.53", "width": 108, "height": 100, "images": "./Images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "engine", "parent": "root", "y": 30 },
+	{ "name": "ship", "parent": "root" }
+],
+"slots": [
+	{ "name": "engine", "bone": "engine", "attachment": "enemies/teleported_engine" },
+	{ "name": "ship", "bone": "ship", "attachment": "enemies/teleported" }
+],
+"skins": {
+	"default": {
+		"engine": {
+			"enemies/teleported_engine": { "width": 46, "height": 46 }
+		},
+		"ship": {
+			"enemies/teleported": { "width": 108, "height": 94 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"engine": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff7f" },
+					{ "time": 0.6667, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"shield": {},
+	"shoot": {}
+}
+}

@@ -1,0 +1,37 @@
+{
+"skeleton": { "hash": "uiC9gJyKn65M0oE3XWMAn/eflao", "spine": "3.6.53", "width": 77, "height": 122.03, "images": "./Images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "engine", "parent": "root", "y": 65 },
+	{ "name": "ship", "parent": "root" }
+],
+"slots": [
+	{ "name": "engine", "bone": "engine", "attachment": "enemies/speedy_engine" },
+	{ "name": "ship", "bone": "ship", "attachment": "enemies/speedy" }
+],
+"skins": {
+	"default": {
+		"engine": {
+			"enemies/speedy_engine": { "y": -23.97, "width": 18, "height": 56 }
+		},
+		"ship": {
+			"enemies/speedy": { "width": 77, "height": 106 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"bones": {
+			"engine": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1667, "x": 1.25, "y": 1.25 },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"shield": {},
+	"shoot": {}
+}
+}

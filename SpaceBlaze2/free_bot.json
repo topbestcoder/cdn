@@ -1,0 +1,37 @@
+{
+"skeleton": { "hash": "hAll2iINCwsemEFz2p6YCFf8ebs", "spine": "3.6.53", "width": 59, "height": 86.5, "images": "./Images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "engine", "parent": "root" },
+	{ "name": "ship", "parent": "root" }
+],
+"slots": [
+	{ "name": "engine", "bone": "engine", "attachment": "enemies/free_bot_engine" },
+	{ "name": "ship", "bone": "ship", "attachment": "enemies/free_bot" }
+],
+"skins": {
+	"default": {
+		"engine": {
+			"enemies/free_bot_engine": { "y": 36, "width": 14, "height": 42 }
+		},
+		"ship": {
+			"enemies/free_bot": { "width": 59, "height": 59 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"bones": {
+			"engine": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1667, "x": 1.5, "y": 1.5 },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"shield": {},
+	"shoot": {}
+}
+}

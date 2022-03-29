@@ -1,0 +1,328 @@
+
+menus.png
+size: 2048,2048
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestLinear
+repeat: none
+asteroid1
+  rotate: false
+  xy: 1039, 1117
+  size: 52, 56
+  orig: 52, 56
+  offset: 0, 0
+  index: -1
+asteroid2
+  rotate: false
+  xy: 1847, 1462
+  size: 52, 76
+  orig: 52, 76
+  offset: 0, 0
+  index: -1
+asteroid3
+  rotate: false
+  xy: 1886, 1792
+  size: 37, 41
+  orig: 37, 41
+  offset: 0, 0
+  index: -1
+asteroid4
+  rotate: false
+  xy: 1886, 1835
+  size: 84, 72
+  orig: 84, 72
+  offset: 0, 0
+  index: -1
+background2px
+  rotate: false
+  xy: 698, 1384
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+button_lock
+  rotate: false
+  xy: 1101, 1450
+  size: 86, 85
+  orig: 86, 85
+  offset: 0, 0
+  index: -1
+button_start
+  rotate: false
+  xy: 1886, 1909
+  size: 136, 136
+  orig: 136, 136
+  offset: 0, 0
+  index: -1
+button_unlock
+  rotate: false
+  xy: 786, 1021
+  size: 86, 85
+  orig: 86, 85
+  offset: 0, 0
+  index: -1
+corner
+  rotate: false
+  xy: 395, 837
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+galaxy
+  rotate: false
+  xy: 2, 1351
+  size: 694, 694
+  orig: 694, 694
+  offset: 0, 0
+  index: -1
+icon_slot_1
+  rotate: false
+  xy: 786, 981
+  size: 66, 38
+  orig: 66, 38
+  offset: 0, 0
+  index: -1
+icon_slot_2
+  rotate: false
+  xy: 1189, 1497
+  size: 77, 38
+  orig: 77, 38
+  offset: 0, 0
+  index: -1
+icon_slot_3
+  rotate: false
+  xy: 1101, 1400
+  size: 78, 48
+  orig: 78, 48
+  offset: 0, 0
+  index: -1
+item_price
+  rotate: false
+  xy: 2, 2
+  size: 68, 17
+  orig: 68, 17
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 698, 1778
+  size: 618, 267
+  orig: 618, 267
+  offset: 0, 0
+  index: -1
+more_games_button_background
+  rotate: false
+  xy: 437, 837
+  size: 454, 96
+  orig: 454, 96
+  offset: 0, 0
+  index: -1
+more_games_button_border
+  rotate: false
+  xy: 395, 635
+  size: 454, 96
+  orig: 454, 96
+  offset: 0, 0
+  index: -1
+more_games_button_text
+  rotate: false
+  xy: 395, 537
+  size: 454, 96
+  orig: 454, 96
+  offset: 0, 0
+  index: -1
+name
+  rotate: false
+  xy: 632, 300
+  size: 123, 22
+  orig: 123, 22
+  offset: 0, 0
+  index: -1
+nightmare_mode_button_background
+  rotate: false
+  xy: 1304, 1649
+  size: 541, 102
+  orig: 541, 102
+  offset: 0, 0
+  index: -1
+nightmare_mode_button_border
+  rotate: false
+  xy: 1304, 1545
+  size: 541, 102
+  orig: 541, 102
+  offset: 0, 0
+  index: -1
+nightmare_mode_button_disabled
+  rotate: false
+  xy: 1304, 1441
+  size: 541, 102
+  orig: 541, 102
+  offset: 0, 0
+  index: -1
+nightmare_mode_button_text
+  rotate: false
+  xy: 395, 733
+  size: 541, 102
+  orig: 541, 102
+  offset: 0, 0
+  index: -1
+play_from_level_1_button_background
+  rotate: false
+  xy: 1318, 1949
+  size: 566, 96
+  orig: 566, 96
+  offset: 0, 0
+  index: -1
+play_from_level_1_button_border
+  rotate: false
+  xy: 1318, 1851
+  size: 566, 96
+  orig: 566, 96
+  offset: 0, 0
+  index: -1
+play_from_level_1_button_text
+  rotate: false
+  xy: 1318, 1753
+  size: 566, 96
+  orig: 566, 96
+  offset: 0, 0
+  index: -1
+ships/alpha/alpha
+  rotate: false
+  xy: 2, 21
+  size: 400, 375
+  orig: 400, 375
+  offset: 0, 0
+  index: -1
+ships/alpha/engine_alpha_1
+  rotate: false
+  xy: 1039, 1175
+  size: 53, 211
+  orig: 53, 211
+  offset: 0, 0
+  index: -1
+ships/alpha/engine_alpha_2
+  rotate: false
+  xy: 632, 324
+  size: 53, 211
+  orig: 53, 211
+  offset: 0, 0
+  index: -1
+ships/beta/beta
+  rotate: false
+  xy: 437, 935
+  size: 347, 414
+  orig: 347, 414
+  offset: 0, 0
+  index: -1
+ships/beta/beta_locked
+  rotate: false
+  xy: 1101, 1537
+  size: 201, 239
+  orig: 201, 239
+  offset: 0, 0
+  index: -1
+ships/beta/engine_beta_1
+  rotate: false
+  xy: 742, 324
+  size: 52, 211
+  orig: 52, 211
+  offset: 0, 0
+  index: -1
+ships/beta/engine_beta_2
+  rotate: false
+  xy: 687, 324
+  size: 53, 211
+  orig: 53, 211
+  offset: 0, 0
+  index: -1
+ships/gamma/engine_gamma_1
+  rotate: false
+  xy: 796, 324
+  size: 52, 211
+  orig: 52, 211
+  offset: 0, 0
+  index: -1
+ships/ultima/engine_ultima_1
+  rotate: false
+  xy: 796, 324
+  size: 52, 211
+  orig: 52, 211
+  offset: 0, 0
+  index: -1
+ships/gamma/engine_gamma_2
+  rotate: false
+  xy: 1847, 1540
+  size: 52, 211
+  orig: 52, 211
+  offset: 0, 0
+  index: -1
+ships/gamma/gamma
+  rotate: false
+  xy: 698, 1388
+  size: 401, 388
+  orig: 401, 388
+  offset: 0, 0
+  index: -1
+ships/gamma/gamma_locked
+  rotate: false
+  xy: 404, 37
+  size: 232, 224
+  orig: 232, 224
+  offset: 0, 0
+  index: -1
+ships/omega/engine_omega_1
+  rotate: false
+  xy: 850, 319
+  size: 49, 199
+  orig: 49, 199
+  offset: 0, 0
+  index: -1
+ships/omega/engine_omega_2
+  rotate: false
+  xy: 905, 532
+  size: 49, 199
+  orig: 49, 199
+  offset: 0, 0
+  index: -1
+ships/omega/omega
+  rotate: false
+  xy: 2, 869
+  size: 433, 480
+  orig: 433, 480
+  offset: 0, 0
+  index: -1
+ships/omega/omega_locked
+  rotate: false
+  xy: 786, 1108
+  size: 251, 278
+  orig: 251, 278
+  offset: 0, 0
+  index: -1
+ships/ultima/engine_ultima_2
+  rotate: false
+  xy: 851, 520
+  size: 52, 211
+  orig: 52, 211
+  offset: 0, 0
+  index: -1
+ships/ultima/ultima
+  rotate: false
+  xy: 2, 398
+  size: 391, 469
+  orig: 391, 469
+  offset: 0, 0
+  index: -1
+ships/ultima/ultima_locked
+  rotate: false
+  xy: 404, 263
+  size: 226, 272
+  orig: 226, 272
+  offset: 0, 0
+  index: -1
+text_slot_1
+  rotate: false
+  xy: 874, 1084
+  size: 93, 22
+  orig: 93, 22
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,37 @@
+{
+"skeleton": { "hash": "bzz2Vt2vcEzvhfIxy2O2IFKxa1I", "spine": "3.6.53", "width": 26, "height": 40.83, "images": "./Images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "engine", "parent": "root" },
+	{ "name": "ship", "parent": "root" }
+],
+"slots": [
+	{ "name": "engine", "bone": "engine", "attachment": "enemies/swarm_engine" },
+	{ "name": "ship", "bone": "ship", "attachment": "enemies/swarm" }
+],
+"skins": {
+	"default": {
+		"engine": {
+			"enemies/swarm_engine": { "y": 13.83, "width": 8, "height": 24 }
+		},
+		"ship": {
+			"enemies/swarm": { "width": 26, "height": 30 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"bones": {
+			"engine": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1667, "x": 0, "y": -5 },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"shield": {},
+	"shoot": {}
+}
+}
