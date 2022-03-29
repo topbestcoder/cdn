@@ -1,0 +1,93 @@
+{"frames": {
+
+"background2":
+{
+	"frame": {"x":1,"y":1,"w":720,"h":1280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":1280},
+	"sourceSize": {"w":720,"h":1280},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"background3":
+{
+	"frame": {"x":723,"y":1,"w":720,"h":1280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":1280},
+	"sourceSize": {"w":720,"h":1280},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"fx/explosion2":
+{
+	"frame": {"x":1711,"y":953,"w":214,"h":214},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":214},
+	"sourceSize": {"w":214,"h":214},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"fx/explosion3":
+{
+	"frame": {"x":1445,"y":953,"w":264,"h":264},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":264,"h":264},
+	"sourceSize": {"w":264,"h":264},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"fx/explosion7":
+{
+	"frame": {"x":1445,"y":491,"w":460,"h":460},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":460,"h":460},
+	"sourceSize": {"w":460,"h":460},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"fx/explosion8":
+{
+	"frame": {"x":1445,"y":1,"w":486,"h":488},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":486,"h":488},
+	"sourceSize": {"w":486,"h":488},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"ui/button_start":
+{
+	"frame": {"x":1445,"y":1219,"w":136,"h":136},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":136},
+	"sourceSize": {"w":136,"h":136},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"ui/icon_retry":
+{
+	"frame": {"x":1583,"y":1219,"w":125,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":135},
+	"sourceSize": {"w":125,"h":135},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"ui/timer":
+{
+	"frame": {"x":1711,"y":1169,"w":118,"h":147},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":118,"h":147},
+	"sourceSize": {"w":118,"h":147},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas_images1.png",
+	"format": "RGBA8888",
+	"size": {"w":1932,"h":1356},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f09acd44e1ec77bb14ca8b78d59b2f00:a3bb1b7349fb5e808763f697a08014cb:296f794048e726262e4214e4cb83edcd$"
+}
+}

@@ -1,0 +1,40 @@
+{
+  "version": "0.3.0",
+  "scope": "tree",
+  "id": "2ae2a358-2e1b-4c60-8375-da105f8dfba6",
+  "title": "h1-hydro",
+  "description": "",
+  "root": "bcaff46f-081a-4ac1-80da-a59abaa215af",
+  "properties": {},
+  "nodes": {
+    "bcaff46f-081a-4ac1-80da-a59abaa215af": {
+      "id": "bcaff46f-081a-4ac1-80da-a59abaa215af",
+      "name": "BossHydroBehavior",
+      "title": "Boss hydro behavior",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 156,
+        "y": 0
+      }
+    }
+  },
+  "display": {
+    "camera_x": 520,
+    "camera_y": 349,
+    "camera_z": 1,
+    "x": 0,
+    "y": 0
+  },
+  "custom_nodes": [
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "BossHydroBehavior",
+      "category": "action",
+      "title": "Boss hydro behavior",
+      "description": null,
+      "properties": {}
+    }
+  ]
+}

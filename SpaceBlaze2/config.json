@@ -1,0 +1,218 @@
+{
+  "playerShips": [
+    {
+      "name": "Alpha",
+      "open": true,
+      "price": 0,
+      "skinName": "alpha",
+      "maximumHealth": 25,
+      "shieldTime": 5000,
+      "weaponUpgradeTime": 7000,
+      "availableWeaponUpgrades": [
+        "single-gun-damage-x1",
+        "single-gun-damage-x2"
+      ],
+      "availableHealthUpgrades": [],
+      "availableShieldUpgrades": [2],
+      "textSlot1": "100%",
+      "textSlot2": "5s.",
+      "textSlot3": "0%",
+      "laserOffset": 25,
+      "laserTint": 1933824,
+      "boundingRadius": 50
+    },
+    {
+      "name": "Beta",
+      "open": false,
+      "price": 105,
+      "skinName": "beta",
+      "maximumHealth": 50,
+      "shieldTime": 8000,
+      "weaponUpgradeTime": 10000,
+      "availableWeaponUpgrades": [
+        "double-gun-damage-x1",
+        "double-gun-damage-x2"
+      ],
+      "availableHealthUpgrades": [2],
+      "availableShieldUpgrades": [],
+      "textSlot1": "+100%",
+      "textSlot2": "8s.",
+      "textSlot3": "+30%",
+      "laserOffset": 25,
+      "laserTint": 16713222,
+      "boundingRadius": 50
+    },
+    {
+      "name": "Gamma",
+      "open": false,
+      "price": 700,
+      "skinName": "gamma",
+      "maximumHealth": 100,
+      "shieldTime": 10000,
+      "weaponUpgradeTime": 15000,
+      "availableWeaponUpgrades": [
+        "arc-gun-damage-x1",
+        "arc-gun-damage-x2"
+      ],
+      "availableHealthUpgrades": [2.5],
+      "availableShieldUpgrades": [3],
+      "textSlot1": "+100%",
+      "textSlot2": "10s.",
+      "textSlot3": "+40%",
+      "laserOffset": 20,
+      "laserTint": 15359,
+      "boundingRadius": 50
+    },
+    {
+      "name": "Omega",
+      "open": false,
+      "price": 2500,
+      "skinName": "omega",
+      "maximumHealth": 120,
+      "shieldTime": 10000,
+      "weaponUpgradeTime": 20000,
+      "availableWeaponUpgrades": [
+        "arc-2-gun-damage-x1",
+        "arc-2-gun-damage-x2"
+      ],
+      "availableHealthUpgrades": [2.5],
+      "availableShieldUpgrades": [3],
+      "textSlot1": "+20%",
+      "textSlot2": "10s.",
+      "textSlot3": "+35%",
+      "laserOffset": 20,
+      "laserTint": 15573504,
+      "boundingRadius": 50
+    },
+    {
+      "name": "Ultima",
+      "open": false,
+      "price": 3500,
+      "skinName": "ultima",
+      "maximumHealth": 220,
+      "shieldTime": 13000,
+      "weaponUpgradeTime": 27000,
+      "availableWeaponUpgrades": [
+        "smart-gun-damage-x1",
+        "smart-gun-damage-x2"
+      ],
+      "availableHealthUpgrades": [3],
+      "availableShieldUpgrades": [3.5],
+      "textSlot1": "+20%",
+      "textSlot2": "10s.",
+      "textSlot3": "+20%",
+      "laserOffset": 20,
+      "laserTint": 16743692,
+      "boundingRadius": 50
+    }
+  ],
+  "playerWeapons": [
+    {
+      "type": "single",
+      "name": "single-gun-damage-x1",
+      "speed": 750,
+      "damage": 1,
+      "reload": 150,
+      "bulletImage": "bullets/simple"
+    },
+    {
+      "type": "single",
+      "name": "single-gun-damage-x2",
+      "speed": 1000,
+      "damage": 2,
+      "reload": 100,
+      "bulletImage": "bullets/double"
+    },
+    {
+      "type": "double",
+      "name": "double-gun-damage-x1",
+      "speed": 800,
+      "damage": 2,
+      "reload": 100,
+      "bulletImage": "bullets/double"
+    },
+    {
+      "type": "double",
+      "name": "double-gun-damage-x2",
+      "speed": 1200,
+      "damage": 4,
+      "reload": 100,
+      "bulletImage": "bullets/arc_gun1"
+    },
+    {
+      "type": "arc",
+      "name": "arc-gun-damage-x1",
+      "speed": 1000,
+      "damage": 3,
+      "reload": 200,
+      "amount": 3,
+      "bulletImage": "bullets/arc_gun1"
+    },
+    {
+      "type": "arc",
+      "name": "arc-gun-damage-x2",
+      "speed": 1200,
+      "damage": 6,
+      "reload": 100,
+      "amount": 5,
+      "bulletImage": "bullets/arc_gun2"
+    },
+    {
+      "type": "arc",
+      "name": "arc-2-gun-damage-x1",
+      "speed": 1200,
+      "damage": 6,
+      "reload": 200,
+      "amount": 5,
+      "bulletImage": "bullets/arc_gun2"
+    },
+    {
+      "type": "arc",
+      "name": "arc-2-gun-damage-x2",
+      "speed": 1200,
+      "damage": 9,
+      "reload": 150,
+      "amount": 7,
+      "bulletImage": "bullets/arc_gun1"
+    },
+    {
+      "type": "smart",
+      "name": "smart-gun-damage-x1",
+      "speedForward": 1200,
+      "damageForward": 10,
+      "speedArc": 1100,
+      "damageArc": 3,
+      "reload": 110,
+      "amountArc": 2,
+      "bulletImage": "bullets/smart",
+      "homingBulletImage": "bullets/double"
+    },
+    {
+      "type": "smart",
+      "name": "smart-gun-damage-x2",
+      "speedForward": 2200,
+      "damageForward": 15,
+      "speedArc": 1700,
+      "damageArc": 4,
+      "reload": 90,
+      "amountArc": 6,
+      "bulletImage": "bullets/smart",
+      "homingBulletImage": "bullets/double"
+    },
+    {
+      "type": "thunderbolt",
+      "name": "thunderbolt"
+    },
+    {
+      "type": "laser",
+      "name": "laser",
+      "damage": 9,
+      "duration": 3000,
+      "gain": 5,
+      "loss": 0,
+      "capacity": 4000,
+      "powerZoneTop": 760,
+      "powerZoneBottom": 1125
+    }
+  ]
+}

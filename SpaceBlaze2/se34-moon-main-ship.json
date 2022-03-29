@@ -1,0 +1,40 @@
+{
+  "version": "0.3.0",
+  "scope": "tree",
+  "id": "0c57727f-edcc-4691-b809-dcd380cfc8c4",
+  "title": "boss-moon",
+  "description": "",
+  "root": "6ee25a6d-0033-4527-875a-62e822c5d9ad",
+  "properties": {},
+  "nodes": {
+    "6ee25a6d-0033-4527-875a-62e822c5d9ad": {
+      "id": "6ee25a6d-0033-4527-875a-62e822c5d9ad",
+      "name": "BossMoonBehavior",
+      "title": "Boss moon behavior",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 144,
+        "y": -24
+      }
+    }
+  },
+  "display": {
+    "camera_x": 960,
+    "camera_y": 489,
+    "camera_z": 1,
+    "x": -12,
+    "y": -24
+  },
+  "custom_nodes": [
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "BossMoonBehavior",
+      "category": "action",
+      "title": "Boss moon behavior",
+      "description": null,
+      "properties": {}
+    }
+  ]
+}

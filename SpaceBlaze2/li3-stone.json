@@ -1,0 +1,40 @@
+{
+  "version": "0.3.0",
+  "scope": "tree",
+  "id": "2802faef-6e4e-4519-8c2f-6bc05150cd0a",
+  "title": "A behavior tree",
+  "description": "",
+  "root": "06989ba0-a018-42cf-8010-388f49f53718",
+  "properties": {},
+  "nodes": {
+    "06989ba0-a018-42cf-8010-388f49f53718": {
+      "id": "06989ba0-a018-42cf-8010-388f49f53718",
+      "name": "BossStoneBehavior",
+      "title": "Li3-Stone Behavior",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 168,
+        "y": 0
+      }
+    }
+  },
+  "display": {
+    "camera_x": 461,
+    "camera_y": 383,
+    "camera_z": 1,
+    "x": 0,
+    "y": 0
+  },
+  "custom_nodes": [
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "BossStoneBehavior",
+      "category": "action",
+      "title": "Li3-Stone Behavior",
+      "description": null,
+      "properties": {}
+    }
+  ]
+}
