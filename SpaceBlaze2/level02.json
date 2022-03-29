@@ -1,0 +1,719 @@
+{
+  "rounds": [
+    {
+      "type": 1,
+      "spawnDelay": 1000,
+      "spawnDelayDeviation": 500,
+      "waves": 90,
+      "spawnY": -50,
+      "groupsPerLine": 1,
+      "groupsPerLineDeviation": 1,
+      "spawnsPerLine": 10,
+      "groups": [
+        {
+          "probability": 0.7,
+          "enemies": [
+            {
+              "shipName": "upgrade_test",
+              "settings": [
+                { "type": "base", "frameName": "simple_bot", "behavior": "13_simple_bot" },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 500,
+                  "reloadTimeMaxDeviation": 2500,
+                  "projectileSpeed": 400,
+                  "bulletDamage": 1,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 1, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "next_gun_upgrade,,,,,,,,,,,,,,,,,,,,,,,,,,," },
+                { "type": "score", "score": 100 }
+              ]
+            }
+          ]
+        },
+        {
+          "probability": 0.1,
+          "enemies": [
+            {
+              "shipName": "upgrade_test",
+              "settings": [
+                { "type": "base", "frameName": "bot_2_0", "behavior": "20_simple_bot_faster" },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 1500,
+                  "reloadTimeMaxDeviation": 2000,
+                  "projectileSpeed": 500,
+                  "bulletDamage": 4,
+                  "bulletFrameName": "bullets/enemy_bullet1",
+                  "homingMode": false
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 2, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "enable_shield,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," },
+                { "type": "score", "score": 100 }
+              ]
+            }
+          ]
+        },
+        {
+          "probability": 0.1,
+          "enemies": [
+            {
+              "shipName": "upgrade_test",
+              "settings": [
+                { "type": "base", "frameName": "free_bot", "behavior": "14_free_bot" },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 1500,
+                  "reloadTimeMaxDeviation": 1500,
+                  "projectileSpeed": 400,
+                  "bulletDamage": 3,
+                  "bulletFrameName": "bullets/enemy_bullet1",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "big_star_upgrade,,,,,,,,,,,,,,,,,,,,,,,,hp_restore,,,,,,,,," },
+                { "type": "score", "score": 100 }
+              ]
+            }
+          ]
+        },
+        {
+          "probability": 0.1,
+          "enemies": [
+            {
+              "shipName": "upgrade_test",
+              "settings": [
+                { "type": "base", "frameName": "free_bot", "behavior": "14_free_bot" },
+                { "type": "position", "x": 1000, "y": 200 },
+                { "type": "weapon",
+                  "reloadTime": 1500,
+                  "reloadTimeMaxDeviation": 1500,
+                  "projectileSpeed": 400,
+                  "bulletDamage": 3,
+                  "bulletFrameName": "bullets/enemy_bullet1",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "big_star_upgrade,,,,,,,,,,,,,,,,,,,,,,,,hp_restore,,,,,,,,," },
+                { "type": "score", "score": 100 }
+              ]
+            }
+          ]
+        },
+        {
+          "probability": 0.1,
+          "enemies": [
+            {
+              "shipName": "upgrade_test",
+              "settings": [
+                { "type": "base", "frameName": "free_bot", "behavior": "14_free_bot" },
+                { "type": "position", "x": 1000, "y": 100 },
+                { "type": "weapon",
+                  "reloadTime": 1500,
+                  "reloadTimeMaxDeviation": 1500,
+                  "projectileSpeed": 400,
+                  "bulletDamage": 3,
+                  "bulletFrameName": "bullets/enemy_bullet1",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "big_star_upgrade,,,,,,,,,,,,,,,,,,,,,,,,hp_restore,,,,,,,,," },
+                { "type": "score", "score": 100 }
+              ]
+            }
+          ]
+        },
+        {
+          "probability": 0.1,
+          "enemies": [
+            {
+              "shipName": "upgrade_test",
+              "settings": [
+                { "type": "base", "frameName": "small_ship", "behavior": "15_ship_2.0" },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 2500,
+                  "reloadTimeMaxDeviation": 2500,
+                  "projectileSpeed": 400,
+                  "bulletDamage": 3,
+                  "bulletFrameName": "bullets/enemy_bullet1",
+                  "homingMode": false
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 2, "collisionDamage": 15 },
+                { "type": "upgrade", "upgrade": "enable_shield,,,,,,,,big_star_upgrade,,,," },
+                { "type": "score", "score": 100 }
+              ]
+            }
+          ]
+        },
+        {
+          "probability": 0.2,
+          "enemies": [
+            {
+              "shipName": "upgrade_test",
+              "settings": [
+                { "type": "base", "frameName": "medium_ship", "behavior": "15_ship_2.0" },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 1500,
+                  "reloadTimeMaxDeviation": 2500,
+                  "projectileSpeed": 400,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet1",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 5, "collisionDamage": 15 },
+                { "type": "upgrade", "upgrade": ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,thunderbolt" },
+                { "type": "score", "score": 100 }
+              ]
+            }
+          ]
+        },
+        {
+          "probability": 0.1,
+          "enemies": [
+            {
+              "shipName": "upgrade_test",
+              "settings": [
+                { "type": "base", "frameName": "medium_ship", "behavior": "15_ship_2.0" },
+                { "type": "position", "x": 1000, "y": 100 },
+                { "type": "weapon",
+                  "reloadTime": 1500,
+                  "reloadTimeMaxDeviation": 2500,
+                  "projectileSpeed": 400,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet1",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 15 },
+                { "type": "upgrade", "upgrade": "enable_shield,,,,,,,,,,,,,,,,,,,,,,,,,,,,," },
+                { "type": "score", "score": 100 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "spawnDelay": 500,
+      "spawnDelayDeviation": 500,
+      "waves": 40,
+      "spawnY": -50,
+      "groupsPerLine": 2,
+      "groupsPerLineDeviation": 2,
+      "spawnsPerLine": 20,
+      "groups": [
+        {
+          "probability": 0.7,
+          "enemies": [
+            {
+              "shipName": "upgrade_test",
+              "settings": [
+                { "type": "base", "frameName": "asteroid", "behavior": "09_asteroid" },
+                { "type": "position", "x": 0, "y": 0 },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 2, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "next_gun_upgrade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," },
+                { "type": "score", "score": 100 }
+              ]
+            }
+          ]
+        },
+        {
+          "probability": 0.3,
+          "enemies": [
+            {
+              "shipName": "upgrade_test",
+              "settings": [
+                { "type": "base", "frameName": "big_asteroid", "behavior": "21_asteroid_faster" },
+                { "type": "position", "x": 0, "y": 0 },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 5, "collisionDamage": 15 },
+                { "type": "upgrade", "upgrade": ",,,,,,,,,,,,,,,,,,,,,,,enable_shield,enable_shield,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," },
+                { "type": "score", "score": 100 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "spawnDelay": 3000,
+      "spawnDelayDeviation": 1000,
+      "waves": 10,
+      "spawnY": -50,
+      "groupsPerLine": 1,
+      "groupsPerLineDeviation": 1,
+      "spawnsPerLine": 20,
+      "groups": [
+        {
+          "probability": 0.05,
+          "enemies": [
+            {
+              "shipName": "01",
+              "settings": [
+                { "type": "base", "frameName": "medium_ship", "behavior": "23_swarm_center", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 3600,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 3,
+                  "bulletFrameName": "bullets/enemy_bullet1",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 7, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": ",,,,,,,,,,,,,,,,enable_shield" },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "leader", "rotationOffset": 0 }
+              ]
+            },
+            {
+              "shipName": "02",
+              "settings": [
+                { "type": "base", "frameName": "swarm", "behavior": "22_swarm_bot", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 1500,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "bot", "rotationOffset": 0 }
+              ]
+            },
+            {
+              "shipName": "03",
+              "settings": [
+                { "type": "base", "frameName": "swarm", "behavior": "22_swarm_bot", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 1600,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "bot", "rotationOffset": 45 }
+              ]
+            },
+            {
+              "shipName": "04",
+              "settings": [
+                { "type": "base", "frameName": "swarm", "behavior": "22_swarm_bot", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 1700,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "bot", "rotationOffset": 90 }
+              ]
+            },
+            {
+              "shipName": "05",
+              "settings": [
+                { "type": "base", "frameName": "swarm", "behavior": "22_swarm_bot", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 1800,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "bot", "rotationOffset": 135 }
+              ]
+            },
+            {
+              "shipName": "06",
+              "settings": [
+                { "type": "base", "frameName": "swarm", "behavior": "22_swarm_bot", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 1900,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "bot", "rotationOffset": 180 }
+              ]
+            },
+            {
+              "shipName": "07",
+              "settings": [
+                { "type": "base", "frameName": "swarm", "behavior": "22_swarm_bot", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 2000,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "bot", "rotationOffset": 225 }
+              ]
+            },
+            {
+              "shipName": "07",
+              "settings": [
+                { "type": "base", "frameName": "swarm", "behavior": "22_swarm_bot", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 2100,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "bot", "rotationOffset": 270 }
+              ]
+            },
+            {
+              "shipName": "07",
+              "settings": [
+                { "type": "base", "frameName": "swarm", "behavior": "22_swarm_bot", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 2200,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "bot", "rotationOffset": 315 }
+              ]
+            }
+          ]
+        },
+        {
+          "probability": 0.05,
+          "enemies": [
+            {
+              "shipName": "01",
+              "settings": [
+                { "type": "base", "frameName": "ship_2_0", "behavior": "23_swarm_center", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 2000,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet2",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 7, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "big_star_upgrade,next_gun_upgrade,,,,,,,,,,,,,,,,,,,,,," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "leader", "rotationOffset": 0 }
+              ]
+            },
+            {
+              "shipName": "02",
+              "settings": [
+                { "type": "base", "frameName": "swarm", "behavior": "22_swarm_bot", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 1500,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "thunderbolt,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "bot", "rotationOffset": 0 }
+              ]
+            },
+            {
+              "shipName": "03",
+              "settings": [
+                { "type": "base", "frameName": "swarm", "behavior": "22_swarm_bot", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 1500,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "bot", "rotationOffset": 45 }
+              ]
+            },
+            {
+              "shipName": "04",
+              "settings": [
+                { "type": "base", "frameName": "swarm", "behavior": "22_swarm_bot", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 1500,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "bot", "rotationOffset": 90 }
+              ]
+            },
+            {
+              "shipName": "05",
+              "settings": [
+                { "type": "base", "frameName": "swarm", "behavior": "22_swarm_bot", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 1500,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "bot", "rotationOffset": 135 }
+              ]
+            },
+            {
+              "shipName": "06",
+              "settings": [
+                { "type": "base", "frameName": "swarm", "behavior": "22_swarm_bot", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 1500,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "bot", "rotationOffset": 180 }
+              ]
+            },
+            {
+              "shipName": "07",
+              "settings": [
+                { "type": "base", "frameName": "swarm", "behavior": "22_swarm_bot", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 1500,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "bot", "rotationOffset": 225 }
+              ]
+            },
+            {
+              "shipName": "07",
+              "settings": [
+                { "type": "base", "frameName": "swarm", "behavior": "22_swarm_bot", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 1500,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "bot", "rotationOffset": 270 }
+              ]
+            },
+            {
+              "shipName": "07",
+              "settings": [
+                { "type": "base", "frameName": "swarm", "behavior": "22_swarm_bot", "aiUpdateTime": 1 },
+                { "type": "position", "x": 0, "y": 0 },
+                { "type": "weapon",
+                  "reloadTime": 1500,
+                  "reloadTimeMaxDeviation": 0,
+                  "projectileSpeed": 600,
+                  "bulletDamage": 2,
+                  "bulletFrameName": "bullets/enemy_bullet3",
+                  "homingMode": true
+                },
+                {
+                  "type": "physics", "boundingRadius": 35
+                },
+                { "type": "survivability", "health": 3, "collisionDamage": 10 },
+                { "type": "upgrade", "upgrade": "," },
+                { "type": "score", "score": 10 },
+                { "type": "swarm", "swarmBotType": "bot", "rotationOffset": 315 }
+              ]
+            }
+          ]
+        }
+      ],
+      "registeredEnemyModels": ["mine"]
+    },
+    {
+      "type": 0,
+      "enemies": [
+        {
+          "shipName": "se34-moon",
+          "spawnDelay": 3000,
+          "settings": [
+            { "type": "base", "frameName": "boss_moon", "behavior": "se34-moon-main-ship", "disableBlink": true, "aiUpdateTime": 1 },
+            { "type": "position", "x": 360, "y": -600 },
+            { "type": "weapon",
+              "reloadTime": 100,
+              "reloadTimeMaxDeviation": 0,
+              "projectileSpeed": 500,
+              "bulletDamage": 5,
+              "bulletFrameName": "bullets/enemy_bullet1",
+              "homingMode": true
+            },
+            {
+              "type": "physics", "boundingRadius": 35
+            },
+            { "type": "survivability", "health": 340, "collisionDamage": 100 },
+            { "type": "upgrade", "upgrade": "big_star_upgrade" },
+            { "type": "boss" },
+            { "type": "score", "score": 100 }
+          ]
+        }
+      ]
+    }
+  ]
+}
