@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'mesmerize';
+    src: url('../fonts/mesmerize-ex-eb-it.eot');
+    src: url('../fonts/mesmerize-ex-eb-it.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mesmerize-ex-eb-it.woff2') format('woff2'),
+         url('../fonts/mesmerize-ex-eb-it.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'orbitron';
+    src: url('../fonts/orbitron_bold-webfont.eot');
+    src: url('../fonts/orbitron_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/orbitron_bold-webfont.woff2') format('woff2'),
+         url('../fonts/orbitron_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,643 @@
+{
+  "version": "0.3.0",
+  "scope": "tree",
+  "id": "e9db21da-af61-4ca4-b757-c5a45446b3ce",
+  "title": "16_teleport",
+  "root": "572d029d-904f-4596-807e-b15aee9bab3c",
+  "properties": {},
+  "nodes": {
+    "572d029d-904f-4596-807e-b15aee9bab3c": {
+      "id": "572d029d-904f-4596-807e-b15aee9bab3c",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -12,
+        "y": 168
+      },
+      "children": [
+        "0c3be38d-efc7-4cfb-8dbd-94b2ddf2cf34",
+        "a17429e5-59c5-4354-875a-816c47219e3f",
+        "a04adb87-4c1f-4743-833b-8d90d86ae5a7"
+      ]
+    },
+    "a04adb87-4c1f-4743-833b-8d90d86ae5a7": {
+      "id": "a04adb87-4c1f-4743-833b-8d90d86ae5a7",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 84,
+        "y": 468
+      },
+      "children": [
+        "ad10e3cd-4007-4bae-86c1-ea2e2e2b42da",
+        "1519ea4c-4aef-4e29-9315-04a7936bc6e5",
+        "157e5535-faec-442b-951f-d2e0de110f29",
+        "e7d62e51-65d8-4780-84b5-b82aa0b1818d"
+      ]
+    },
+    "e7d62e51-65d8-4780-84b5-b82aa0b1818d": {
+      "id": "e7d62e51-65d8-4780-84b5-b82aa0b1818d",
+      "name": "Runner",
+      "title": "Runner",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 348,
+        "y": 1296
+      }
+    },
+    "0c3be38d-efc7-4cfb-8dbd-94b2ddf2cf34": {
+      "id": "0c3be38d-efc7-4cfb-8dbd-94b2ddf2cf34",
+      "name": "SaveTimestamp",
+      "title": "Save current time as <key>",
+      "description": "",
+      "properties": {
+        "key": "shoot"
+      },
+      "display": {
+        "x": 228,
+        "y": 120
+      }
+    },
+    "ad10e3cd-4007-4bae-86c1-ea2e2e2b42da": {
+      "id": "ad10e3cd-4007-4bae-86c1-ea2e2e2b42da",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 288,
+        "y": 372
+      },
+      "children": [
+        "65c52487-f671-45fb-97a5-e4303bea4b9a",
+        "b2bc3a35-57d7-44d7-9671-9443229d4bd7",
+        "b9e4b517-80bb-4bd1-83f4-65c6f0afe664",
+        "dd1cfdc8-78f5-4d5e-8ca5-1b64b262ba35"
+      ]
+    },
+    "b9e4b517-80bb-4bd1-83f4-65c6f0afe664": {
+      "id": "b9e4b517-80bb-4bd1-83f4-65c6f0afe664",
+      "name": "SaveTimestamp",
+      "title": "Save current time as <key>",
+      "description": "",
+      "properties": {
+        "key": "shoot"
+      },
+      "display": {
+        "x": 504,
+        "y": 432
+      }
+    },
+    "dd1cfdc8-78f5-4d5e-8ca5-1b64b262ba35": {
+      "id": "dd1cfdc8-78f5-4d5e-8ca5-1b64b262ba35",
+      "name": "Failer",
+      "title": "Failer",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 468,
+        "y": 492
+      }
+    },
+    "b2bc3a35-57d7-44d7-9671-9443229d4bd7": {
+      "id": "b2bc3a35-57d7-44d7-9671-9443229d4bd7",
+      "name": "ShootForward",
+      "title": "Shoot forward",
+      "description": "",
+      "properties": {
+        "bulletImage": "bullets/shell1",
+        "damage": 0,
+        "mode": 1,
+        "velocity": 1000
+      },
+      "display": {
+        "x": 468,
+        "y": 372
+      }
+    },
+    "157e5535-faec-442b-951f-d2e0de110f29": {
+      "id": "157e5535-faec-442b-951f-d2e0de110f29",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 312,
+        "y": 1128
+      },
+      "children": [
+        "63305a97-a234-49b7-8e95-083e0437c833",
+        "7073c945-db26-4605-8cab-f8a813c24c9a"
+      ]
+    },
+    "7073c945-db26-4605-8cab-f8a813c24c9a": {
+      "id": "7073c945-db26-4605-8cab-f8a813c24c9a",
+      "name": "Runner",
+      "title": "Runner",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 456,
+        "y": 1188
+      }
+    },
+    "63305a97-a234-49b7-8e95-083e0437c833": {
+      "id": "63305a97-a234-49b7-8e95-083e0437c833",
+      "name": "SetVelocity",
+      "title": "Set velocity",
+      "description": "",
+      "properties": {
+        "x": 0,
+        "y": 150
+      },
+      "display": {
+        "x": 456,
+        "y": 1128
+      }
+    },
+    "65c52487-f671-45fb-97a5-e4303bea4b9a": {
+      "id": "65c52487-f671-45fb-97a5-e4303bea4b9a",
+      "name": "IsDeltaTimeGreaterThanKey",
+      "title": "Is delta time for <timeKey> greater than value of key <valueKey>",
+      "description": "",
+      "properties": {
+        "timeKey": "shoot",
+        "valueKey": "reloadTime"
+      },
+      "display": {
+        "x": 636,
+        "y": 324
+      }
+    },
+    "a17429e5-59c5-4354-875a-816c47219e3f": {
+      "id": "a17429e5-59c5-4354-875a-816c47219e3f",
+      "name": "SaveTimestamp",
+      "title": "Save current time as <key>",
+      "description": "",
+      "properties": {
+        "key": "teleportation"
+      },
+      "display": {
+        "x": 252,
+        "y": 168
+      }
+    },
+    "af6c1ca2-f41a-4ef4-b196-05209196f9dc": {
+      "id": "af6c1ca2-f41a-4ef4-b196-05209196f9dc",
+      "name": "SaveTimestamp",
+      "title": "Save current time as <key>",
+      "description": "",
+      "properties": {
+        "key": "teleportation"
+      },
+      "display": {
+        "x": 528,
+        "y": 960
+      }
+    },
+    "b49c7fda-2809-4789-b4f3-5862cb37f4e2": {
+      "id": "b49c7fda-2809-4789-b4f3-5862cb37f4e2",
+      "name": "Failer",
+      "title": "Failer",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 468,
+        "y": 1020
+      }
+    },
+    "e06a5dd6-382e-43a3-aa83-39ebfbe911c6": {
+      "id": "e06a5dd6-382e-43a3-aa83-39ebfbe911c6",
+      "name": "IsDeltaTimeGreaterThanKey",
+      "title": "Is delta time for <timeKey> greater than value of key <valueKey>",
+      "description": "",
+      "properties": {
+        "timeKey": "teleportation",
+        "valueKey": "teleportationTime"
+      },
+      "display": {
+        "x": 696,
+        "y": 600
+      }
+    },
+    "c399c41b-6e5d-40a2-86eb-291ea0e0307f": {
+      "id": "c399c41b-6e5d-40a2-86eb-291ea0e0307f",
+      "name": "GetPosition",
+      "title": "Get entity position",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 468,
+        "y": 660
+      }
+    },
+    "9ba23114-aa11-4057-b3cc-de0f38a2742e": {
+      "id": "9ba23114-aa11-4057-b3cc-de0f38a2742e",
+      "name": "SetRandomTarget",
+      "title": "Set random target",
+      "description": "",
+      "properties": {
+        "minX": 0,
+        "maxX": 720,
+        "minY": 0,
+        "maxY": 1280
+      },
+      "display": {
+        "x": 468,
+        "y": 708
+      }
+    },
+    "cb8edc34-0875-499a-8ece-ee808717e132": {
+      "id": "cb8edc34-0875-499a-8ece-ee808717e132",
+      "name": "SaveValueAs",
+      "title": "Save value <key1> as <key2>",
+      "description": "",
+      "properties": {
+        "key1": "positionY",
+        "key2": "targetY"
+      },
+      "display": {
+        "x": 516,
+        "y": 756
+      }
+    },
+    "148e5137-b132-4981-82aa-0fa0b7eb81b2": {
+      "id": "148e5137-b132-4981-82aa-0fa0b7eb81b2",
+      "name": "PlayTeleportEffect",
+      "title": "Play teleport effect",
+      "description": "",
+      "properties": {
+        "disappear": 0,
+        "effectDuration": 400
+      },
+      "display": {
+        "x": 468,
+        "y": 804
+      }
+    },
+    "e73c637b-504a-462a-80a7-e87a0e282c88": {
+      "id": "e73c637b-504a-462a-80a7-e87a0e282c88",
+      "name": "TeleportToTarget",
+      "title": "Teleport to target",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 468,
+        "y": 852
+      }
+    },
+    "03c970cc-e6b1-46e3-886c-b6aeb354daea": {
+      "id": "03c970cc-e6b1-46e3-886c-b6aeb354daea",
+      "name": "PlayTeleportEffect",
+      "title": "Play teleport effect",
+      "description": "",
+      "properties": {
+        "disappear": 1,
+        "effectDuration": 400
+      },
+      "display": {
+        "x": 468,
+        "y": 900
+      }
+    },
+    "1519ea4c-4aef-4e29-9315-04a7936bc6e5": {
+      "id": "1519ea4c-4aef-4e29-9315-04a7936bc6e5",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 288,
+        "y": 696
+      },
+      "children": [
+        "e06a5dd6-382e-43a3-aa83-39ebfbe911c6",
+        "c399c41b-6e5d-40a2-86eb-291ea0e0307f",
+        "9ba23114-aa11-4057-b3cc-de0f38a2742e",
+        "cb8edc34-0875-499a-8ece-ee808717e132",
+        "148e5137-b132-4981-82aa-0fa0b7eb81b2",
+        "e73c637b-504a-462a-80a7-e87a0e282c88",
+        "03c970cc-e6b1-46e3-886c-b6aeb354daea",
+        "af6c1ca2-f41a-4ef4-b196-05209196f9dc",
+        "b49c7fda-2809-4789-b4f3-5862cb37f4e2"
+      ]
+    }
+  },
+  "display": {
+    "camera_x": 582,
+    "camera_y": -395,
+    "camera_z": 1,
+    "x": -108,
+    "y": 192
+  },
+  "custom_nodes": [
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetPlayerAsTarget",
+      "category": "action",
+      "title": "Set player as a target",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "FlyToTarget",
+      "category": "action",
+      "title": "Fly to target",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetTarget",
+      "category": "action",
+      "title": "Set target",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "ShootForward",
+      "category": "action",
+      "title": "Shoot forward",
+      "properties": {
+        "bulletImage": "bullets/shell1",
+        "damage": 0,
+        "mode": 1,
+        "velocity": 1000
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "CustomWait",
+      "category": "action",
+      "title": "Wait",
+      "properties": {
+        "milliseconds": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetVelocity",
+      "category": "action",
+      "title": "Set velocity",
+      "properties": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "DisableEngine",
+      "category": "action",
+      "title": "Disable engine",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsTrue",
+      "category": "condition",
+      "title": "Is <key> true",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetValue",
+      "category": "action",
+      "title": "Set <key> value to <value>",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "LessThanValue",
+      "category": "condition",
+      "title": "Is <key> less than <value>",
+      "properties": {
+        "key": "",
+        "value": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "GetPosition",
+      "category": "action",
+      "title": "Get entity position",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "GetVelocity",
+      "category": "action",
+      "title": "Get entity velocity",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "GreaterThanValue",
+      "category": "condition",
+      "title": "Is <key> greater than <value>",
+      "properties": {
+        "key": "",
+        "value": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsFalse",
+      "category": "condition",
+      "title": "Is <key> false",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SaveTimestamp",
+      "category": "action",
+      "title": "Save current time as <key>",
+      "properties": {
+        "key": ""
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsDeltaTimeGreaterThanValue",
+      "category": "condition",
+      "title": "Is timestamp delta in <key> greater than <value>",
+      "properties": {
+        "key": "",
+        "value": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsDeltaTimeLessThanValue",
+      "category": "condition",
+      "title": "Is timestamp delta in <key> less than <value>",
+      "properties": {
+        "key": "",
+        "value": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetRandomTarget",
+      "category": "action",
+      "title": "Set random target",
+      "properties": {
+        "minX": 0,
+        "maxX": 720,
+        "minY": 0,
+        "maxY": 1280
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "ShootTriple",
+      "category": "action",
+      "title": "Shoot triple",
+      "properties": {
+        "bulletImage": "bullets/shell1",
+        "damage": 0,
+        "mode": 1,
+        "velocity": 1000
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "EnableShield",
+      "category": "action",
+      "title": "Enable shields",
+      "properties": {
+        "duration": 10000
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetPositionAsTarget",
+      "category": "action",
+      "title": "Set current position as target",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SaveValueAs",
+      "category": "action",
+      "title": "Save value <key1> as <key2>",
+      "description": null,
+      "properties": {
+        "key1": "",
+        "key2": ""
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "GetDeltaTarget",
+      "category": "action",
+      "title": "Get Manhattan distance to target",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsKeyALessThanKeyB",
+      "category": "condition",
+      "title": "Is value of key <key1> less than value of <key2>",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsKeyAGreaterThanKeyB",
+      "category": "condition",
+      "title": "Is value of <key1> greater than value of <key2>",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "DisableDecorator",
+      "category": "decorator",
+      "title": "Disable child node if value of <key> is <value>",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetPositionToTarget",
+      "category": "action",
+      "title": "Set position to a targets position",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsDeltaTimeGreaterThanKey",
+      "category": "condition",
+      "title": "Is delta time for <timeKey> greater than value of key <valueKey>",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "FollowPath",
+      "category": "action",
+      "title": "Follow path",
+      "properties": {
+        "speed": 100,
+        "proximityRadius": 30
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "TeleportToTarget",
+      "category": "action",
+      "title": "Teleport to target",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "PlayTeleportEffect",
+      "category": "action",
+      "title": "Play teleport effect",
+      "description": null,
+      "properties": {
+        "disappear": "true",
+        "effectDuration": 400
+      }
+    }
+  ]
+}

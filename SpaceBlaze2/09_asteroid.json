@@ -1,0 +1,157 @@
+{
+  "version": "0.3.0",
+  "scope": "tree",
+  "id": "a1250456-eb04-4f65-b989-514427226ae3",
+  "title": "A behavior tree",
+  "description": "",
+  "root": "3c115a24-d4c8-43cf-8808-2234f5504238",
+  "properties": {},
+  "nodes": {
+    "3c115a24-d4c8-43cf-8808-2234f5504238": {
+      "id": "3c115a24-d4c8-43cf-8808-2234f5504238",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -204,
+        "y": 12
+      },
+      "children": [
+        "dbb01e22-393d-4dcc-8a24-4006806f8770",
+        "8546f4fc-7415-4736-8caf-6bab29b9f154",
+        "3e49727a-0bd0-4bd2-80cb-1ac69a71268d"
+      ]
+    },
+    "8546f4fc-7415-4736-8caf-6bab29b9f154": {
+      "id": "8546f4fc-7415-4736-8caf-6bab29b9f154",
+      "name": "SetVelocity",
+      "title": "Set velocity",
+      "description": "",
+      "properties": {
+        "x": 0,
+        "y": 300
+      },
+      "display": {
+        "x": -36,
+        "y": 12
+      }
+    },
+    "3e49727a-0bd0-4bd2-80cb-1ac69a71268d": {
+      "id": "3e49727a-0bd0-4bd2-80cb-1ac69a71268d",
+      "name": "Runner",
+      "title": "Runner",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -36,
+        "y": 60
+      }
+    },
+    "dbb01e22-393d-4dcc-8a24-4006806f8770": {
+      "id": "dbb01e22-393d-4dcc-8a24-4006806f8770",
+      "name": "PlaySpineAnimation",
+      "title": "Play spine animation",
+      "description": "",
+      "properties": {
+        "track": 0,
+        "animation": "idle",
+        "loop": "true",
+        "randomStart": "true"
+      },
+      "display": {
+        "x": -24,
+        "y": -36
+      }
+    }
+  },
+  "display": {
+    "camera_x": 750,
+    "camera_y": 336.5,
+    "camera_z": 1,
+    "x": -288,
+    "y": 12
+  },
+  "custom_nodes": [
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetPlayerAsTarget",
+      "category": "action",
+      "title": "Set player as a target",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "FlyToTarget",
+      "category": "action",
+      "title": "Fly to target",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetTarget",
+      "category": "action",
+      "title": "Set target",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "ShootForward",
+      "category": "action",
+      "title": "Shoot forward",
+      "properties": {
+        "bulletImage": "bullets/shell1",
+        "damage": 0,
+        "mode": 1,
+        "velocity": 1000
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "CustomWait",
+      "category": "action",
+      "title": "Wait",
+      "properties": {
+        "milliseconds": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetVelocity",
+      "category": "action",
+      "title": "Set velocity",
+      "properties": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "DisableEngine",
+      "category": "action",
+      "title": "Disable engine",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "PlaySpineAnimation",
+      "category": "action",
+      "title": "Play spine animation",
+      "description": null,
+      "properties": {
+        "track": 0,
+        "animation": "error",
+        "loop": "false",
+        "randomStart": "false"
+      }
+    }
+  ]
+}

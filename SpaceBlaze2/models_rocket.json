@@ -1,0 +1,12 @@
+{
+  "shipName": "rocket",
+  "settings": [
+    { "type": "base", "frameName": "rocket", "behavior": "24_rocket" },
+    { "type": "position", "x": 0, "y": 0 },
+    {
+      "type": "physics", "x": 10, "y": 5, "width": 50, "height": 50
+    },
+    { "type": "survivability", "health": 2, "collisionDamage": 10 },
+    { "type": "score", "score": 1 }
+  ]
+}

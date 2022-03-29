@@ -1,0 +1,538 @@
+{
+  "version": "0.3.0",
+  "scope": "tree",
+  "id": "bd712ab5-17ea-4107-9355-96576b5f6614",
+  "title": "19_mine",
+  "description": "",
+  "root": "ebcfd4cd-8ade-48d4-8f87-7547bde7f801",
+  "properties": {},
+  "nodes": {
+    "ebcfd4cd-8ade-48d4-8f87-7547bde7f801": {
+      "id": "ebcfd4cd-8ade-48d4-8f87-7547bde7f801",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 36,
+        "y": -84
+      },
+      "children": [
+        "9ae9c856-7c8b-4213-8756-4f68f9889461",
+        "2cc27ef2-1279-493f-bdaa-606dc1dd2dfb"
+      ]
+    },
+    "64720bb6-5a71-4a4e-88eb-e8e28cd2d0fd": {
+      "id": "64720bb6-5a71-4a4e-88eb-e8e28cd2d0fd",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 696,
+        "y": -264
+      },
+      "children": [
+        "c1a13a46-3401-4246-8b9e-30a8be7e7914",
+        "7840aebe-8c9c-432d-8689-6b60cff09bf5"
+      ]
+    },
+    "7840aebe-8c9c-432d-8689-6b60cff09bf5": {
+      "id": "7840aebe-8c9c-432d-8689-6b60cff09bf5",
+      "name": "SetValue",
+      "title": "Set <key> value to <value>",
+      "description": "",
+      "properties": {
+        "key": "initialized",
+        "value": "true"
+      },
+      "display": {
+        "x": 936,
+        "y": -240
+      }
+    },
+    "9ae9c856-7c8b-4213-8756-4f68f9889461": {
+      "id": "9ae9c856-7c8b-4213-8756-4f68f9889461",
+      "name": "DisableDecorator",
+      "title": "Disable child node if value of <key> is <value>",
+      "description": "",
+      "properties": {
+        "key": "initialized",
+        "value": "true",
+        "valuer": "true"
+      },
+      "display": {
+        "x": 420,
+        "y": -264
+      },
+      "child": "64720bb6-5a71-4a4e-88eb-e8e28cd2d0fd"
+    },
+    "c1a13a46-3401-4246-8b9e-30a8be7e7914": {
+      "id": "c1a13a46-3401-4246-8b9e-30a8be7e7914",
+      "name": "EnableMineLights",
+      "title": "Enable mine lights",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 900,
+        "y": -288
+      }
+    },
+    "3e8427cd-4dee-4cea-8ac4-777d03d67000": {
+      "id": "3e8427cd-4dee-4cea-8ac4-777d03d67000",
+      "name": "GetDistanceToPlayer",
+      "title": "Get distance to player",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 396,
+        "y": -132
+      }
+    },
+    "fd057ea7-1260-4e44-a921-75e035b5e99b": {
+      "id": "fd057ea7-1260-4e44-a921-75e035b5e99b",
+      "name": "LessThanValue",
+      "title": "Is <key> less than <value>",
+      "description": "",
+      "properties": {
+        "key": "distanceToPlayer",
+        "value": 300
+      },
+      "display": {
+        "x": 444,
+        "y": -72
+      }
+    },
+    "fead798b-9263-4ede-ac58-edb0dc9e3808": {
+      "id": "fead798b-9263-4ede-ac58-edb0dc9e3808",
+      "name": "SetPlayerAsTarget",
+      "title": "Set player as a target",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 492,
+        "y": 0
+      }
+    },
+    "40f3f59f-4d28-4cfb-83a0-91100688862f": {
+      "id": "40f3f59f-4d28-4cfb-83a0-91100688862f",
+      "name": "SetVelocity",
+      "title": "Set velocity",
+      "description": "",
+      "properties": {
+        "x": 0,
+        "y": 150
+      },
+      "display": {
+        "x": 300,
+        "y": 156
+      }
+    },
+    "6eb4e678-c2a3-4f7b-8d5d-d36b028fc31a": {
+      "id": "6eb4e678-c2a3-4f7b-8d5d-d36b028fc31a",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 228,
+        "y": -72
+      },
+      "children": [
+        "3e8427cd-4dee-4cea-8ac4-777d03d67000",
+        "fd057ea7-1260-4e44-a921-75e035b5e99b",
+        "ee251366-e68c-49c7-8419-984e8b4c44b7"
+      ]
+    },
+    "2cc27ef2-1279-493f-bdaa-606dc1dd2dfb": {
+      "id": "2cc27ef2-1279-493f-bdaa-606dc1dd2dfb",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 120,
+        "y": -60
+      },
+      "children": [
+        "6eb4e678-c2a3-4f7b-8d5d-d36b028fc31a",
+        "40f3f59f-4d28-4cfb-83a0-91100688862f"
+      ]
+    },
+    "ee251366-e68c-49c7-8419-984e8b4c44b7": {
+      "id": "ee251366-e68c-49c7-8419-984e8b4c44b7",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 324,
+        "y": 24
+      },
+      "children": [
+        "fead798b-9263-4ede-ac58-edb0dc9e3808",
+        "a8a26a59-72d9-40e5-a54d-34e8af58addf"
+      ]
+    },
+    "a8a26a59-72d9-40e5-a54d-34e8af58addf": {
+      "id": "a8a26a59-72d9-40e5-a54d-34e8af58addf",
+      "name": "RapidMoveToTarget",
+      "title": "RapidMoveToTarget",
+      "description": "",
+      "properties": {
+        "maximumSpeed": 600,
+        "acceleration": 6
+      },
+      "display": {
+        "x": 492,
+        "y": 48
+      }
+    }
+  },
+  "display": {
+    "camera_x": 446,
+    "camera_y": 590,
+    "camera_z": 1,
+    "x": -60,
+    "y": -84
+  },
+  "custom_nodes": [
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetPlayerAsTarget",
+      "category": "action",
+      "title": "Set player as a target",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "ShootForward",
+      "category": "action",
+      "title": "Shoot forward",
+      "properties": {
+        "bulletImage": "bullets/shell1",
+        "damage": 0,
+        "mode": 1,
+        "velocity": 1000
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetVelocity",
+      "category": "action",
+      "title": "Set velocity",
+      "properties": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsTrue",
+      "category": "condition",
+      "title": "Is <key> true",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "CustomWait",
+      "category": "action",
+      "title": "Wait <milliseconds>",
+      "properties": {
+        "milliseconds": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetValue",
+      "category": "action",
+      "title": "Set <key> value to <value>",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "LessThanValue",
+      "category": "condition",
+      "title": "Is <key> less than <value>",
+      "properties": {
+        "key": "",
+        "value": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "GetPosition",
+      "category": "action",
+      "title": "Get entity position",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "GetVelocity",
+      "category": "action",
+      "title": "Get entity velocity",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "GreaterThanValue",
+      "category": "condition",
+      "title": "Is <key> greater than <value>",
+      "properties": {
+        "key": "",
+        "value": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsFalse",
+      "category": "condition",
+      "title": "Is <key> false",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SaveTimestamp",
+      "category": "action",
+      "title": "Save current time as <key>",
+      "properties": {
+        "key": ""
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsDeltaTimeGreaterThanValue",
+      "category": "condition",
+      "title": "Is timestamp delta in <key> greater than <value>",
+      "properties": {
+        "key": "",
+        "value": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsDeltaTimeLessThanValue",
+      "category": "condition",
+      "title": "Is timestamp delta in <key> less than <value>",
+      "properties": {
+        "key": "",
+        "value": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetRandomTarget",
+      "category": "action",
+      "title": "Set random target",
+      "properties": {
+        "minX": 0,
+        "maxX": 720,
+        "minY": 0,
+        "maxY": 1280
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "ShootTriple",
+      "category": "action",
+      "title": "Shoot triple",
+      "properties": {
+        "bulletImage": "bullets/shell1",
+        "damage": 0,
+        "mode": 1,
+        "velocity": 1000
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "EnableShield",
+      "category": "action",
+      "title": "Enable shields",
+      "properties": {
+        "duration": 10000
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetPositionAsTarget",
+      "category": "action",
+      "title": "Set current position as target",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SaveValueAs",
+      "category": "action",
+      "title": "Save value <key1> as <key2>",
+      "description": null,
+      "properties": {
+        "key1": "",
+        "key2": ""
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "GetDeltaTarget",
+      "category": "action",
+      "title": "Get Manhattan distance to target",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "FlyToTarget",
+      "category": "action",
+      "title": "Fly to target",
+      "properties": {
+        "speed": 100,
+        "proximityRadius": 30
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetTarget",
+      "category": "action",
+      "title": "Set target",
+      "properties": {
+        "x": 0,
+        "y": 0,
+        "relativeToCurrentPosition": "false"
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsKeyALessThanKeyB",
+      "category": "condition",
+      "title": "Is value of key <key1> less than value of <key2>",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsKeyAGreaterThanKeyB",
+      "category": "condition",
+      "title": "Is value of <key1> greater than value of <key2>",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "DisableDecorator",
+      "category": "decorator",
+      "title": "Disable child node if value of <key> is <value>",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetPositionToTarget",
+      "category": "action",
+      "title": "Set position to a targets position",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsDeltaTimeGreaterThanKey",
+      "category": "condition",
+      "title": "Is delta time for <timeKey> greater than value of key <valueKey>",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "FollowPath",
+      "category": "action",
+      "title": "Follow path",
+      "properties": {
+        "speed": 100,
+        "proximityRadius": 30
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "WaitForValue",
+      "category": "action",
+      "title": "Wait for time specified in <key>",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "PlaceMine",
+      "category": "action",
+      "title": "Place mine",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "DisableEngine",
+      "category": "action",
+      "title": "Disable engine",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "EnableMineLights",
+      "category": "action",
+      "title": "Enable mine lights",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "GetDistanceToPlayer",
+      "category": "action",
+      "title": "Get distance to player",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "RapidMoveToTarget",
+      "category": "action",
+      "title": "RapidMoveToTarget",
+      "description": null,
+      "properties": {
+        "maximumSpeed": 1000,
+        "acceleration": 100
+      }
+    }
+  ]
+}

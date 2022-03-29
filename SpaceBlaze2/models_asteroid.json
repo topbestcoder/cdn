@@ -1,0 +1,12 @@
+{
+  "shipName": "asteroid",
+  "settings": [
+    { "type": "base", "frameName": "asteroid", "behavior": "09_asteroid" },
+    { "type": "position", "x": 0, "y": 0 },
+    {
+      "type": "physics", "x": 10, "y": 5, "width": 50, "height": 50
+    },
+    { "type": "survivability", "health": 2, "collisionDamage": 15 },
+    { "type": "score", "score": 1 }
+  ]
+}

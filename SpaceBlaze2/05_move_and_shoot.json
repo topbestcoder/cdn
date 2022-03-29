@@ -1,0 +1,925 @@
+{
+  "version": "0.3.0",
+  "scope": "tree",
+  "id": "a1250456-eb04-4f65-b989-514427226ae3",
+  "title": "05_shoot_and_manuver",
+  "description": "",
+  "root": "f9b9a247-7f44-4c05-874f-5c4d654e0b10",
+  "properties": {},
+  "nodes": {
+    "f9b9a247-7f44-4c05-874f-5c4d654e0b10": {
+      "id": "f9b9a247-7f44-4c05-874f-5c4d654e0b10",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -300,
+        "y": -24
+      },
+      "children": [
+        "cf75edf4-f4ef-4f11-8c43-05004a97985d",
+        "42a8e779-3503-4485-8fd2-9927bde7e0e3"
+      ]
+    },
+    "42a8e779-3503-4485-8fd2-9927bde7e0e3": {
+      "id": "42a8e779-3503-4485-8fd2-9927bde7e0e3",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -228,
+        "y": 72
+      },
+      "children": [
+        "3c28649d-f7af-4b69-8b93-eae9a0e8ecdc",
+        "b926ebcb-69af-4bfc-817d-a762a5395eca",
+        "0f4d77fa-64f5-4555-854c-77e3130542c6",
+        "24de2a5a-852e-4e97-9bc4-518ea3cdd99c"
+      ]
+    },
+    "24de2a5a-852e-4e97-9bc4-518ea3cdd99c": {
+      "id": "24de2a5a-852e-4e97-9bc4-518ea3cdd99c",
+      "name": "Runner",
+      "title": "Runner",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 0,
+        "y": 1200
+      }
+    },
+    "66f6da08-ccff-44b9-804f-41fc616fdad1": {
+      "id": "66f6da08-ccff-44b9-804f-41fc616fdad1",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 324,
+        "y": -252
+      },
+      "children": [
+        "c93522cd-5093-4a49-a468-7462e770d62a",
+        "c8e4737f-804e-4176-87f3-6e226efe50b0",
+        "43673d2d-6811-4fff-a070-6318e08ca028",
+        "0ae2cd2d-b641-4a0e-8a75-ab33b0781fe7",
+        "312a3b94-99b8-4e23-9d20-c44bbdba5362",
+        "95e3acbc-9465-4987-bc3d-63418e045c26",
+        "1946a113-7373-4fc1-86f6-a47d06a79b36",
+        "fa091434-3e6c-4445-87e4-655ac3238ba0",
+        "3e9b0636-305c-429e-beef-b718ac1592c0",
+        "e909b88d-5d7c-4726-aa7a-22c2a10213c6",
+        "ddc64ea6-aab1-44e3-8630-145d268cb7a5"
+      ]
+    },
+    "c93522cd-5093-4a49-a468-7462e770d62a": {
+      "id": "c93522cd-5093-4a49-a468-7462e770d62a",
+      "name": "FlyToTarget",
+      "title": "Fly to target",
+      "description": "",
+      "properties": {
+        "speed": 500,
+        "proximityRadius": 10
+      },
+      "display": {
+        "x": 564,
+        "y": -492
+      }
+    },
+    "ddc64ea6-aab1-44e3-8630-145d268cb7a5": {
+      "id": "ddc64ea6-aab1-44e3-8630-145d268cb7a5",
+      "name": "SetValue",
+      "title": "Set <key> value to <value>",
+      "description": "",
+      "properties": {
+        "key": "arrived",
+        "value": "true"
+      },
+      "display": {
+        "x": 588,
+        "y": -12
+      }
+    },
+    "c8e4737f-804e-4176-87f3-6e226efe50b0": {
+      "id": "c8e4737f-804e-4176-87f3-6e226efe50b0",
+      "name": "SaveTimestamp",
+      "title": "Save current time as <key>",
+      "description": "",
+      "properties": {
+        "key": "previousManuver"
+      },
+      "display": {
+        "x": 648,
+        "y": -444
+      }
+    },
+    "43673d2d-6811-4fff-a070-6318e08ca028": {
+      "id": "43673d2d-6811-4fff-a070-6318e08ca028",
+      "name": "SaveTimestamp",
+      "title": "Save current time as <key>",
+      "description": "",
+      "properties": {
+        "key": "shoot"
+      },
+      "display": {
+        "x": 600,
+        "y": -396
+      }
+    },
+    "0f4d77fa-64f5-4555-854c-77e3130542c6": {
+      "id": "0f4d77fa-64f5-4555-854c-77e3130542c6",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -36,
+        "y": 936
+      },
+      "children": [
+        "39fcaff5-54e5-4142-85ef-5131027b6711",
+        "2f5b9ee8-a63a-4a9b-9ed0-52fcce27158f"
+      ]
+    },
+    "1946a113-7373-4fc1-86f6-a47d06a79b36": {
+      "id": "1946a113-7373-4fc1-86f6-a47d06a79b36",
+      "name": "SetTarget",
+      "title": "Set target",
+      "description": "",
+      "properties": {
+        "x": 50,
+        "y": 0,
+        "relativeToCurrentPosition": "true"
+      },
+      "display": {
+        "x": 564,
+        "y": -204
+      }
+    },
+    "fa091434-3e6c-4445-87e4-655ac3238ba0": {
+      "id": "fa091434-3e6c-4445-87e4-655ac3238ba0",
+      "name": "SaveValueAs",
+      "title": "Save value <key1> as <key2>",
+      "description": "",
+      "properties": {
+        "key1": "targetX",
+        "key2": "targetRight"
+      },
+      "display": {
+        "x": 624,
+        "y": -156
+      }
+    },
+    "3e9b0636-305c-429e-beef-b718ac1592c0": {
+      "id": "3e9b0636-305c-429e-beef-b718ac1592c0",
+      "name": "SetTarget",
+      "title": "Set target",
+      "description": "",
+      "properties": {
+        "x": -50,
+        "y": 0,
+        "relativeToCurrentPosition": "true"
+      },
+      "display": {
+        "x": 564,
+        "y": -108
+      }
+    },
+    "e909b88d-5d7c-4726-aa7a-22c2a10213c6": {
+      "id": "e909b88d-5d7c-4726-aa7a-22c2a10213c6",
+      "name": "SaveValueAs",
+      "title": "Save value <key1> as <key2>",
+      "description": "",
+      "properties": {
+        "key1": "targetX",
+        "key2": "targetLeft"
+      },
+      "display": {
+        "x": 624,
+        "y": -60
+      }
+    },
+    "cf75edf4-f4ef-4f11-8c43-05004a97985d": {
+      "id": "cf75edf4-f4ef-4f11-8c43-05004a97985d",
+      "name": "DisableDecorator",
+      "title": "Disable child node if value of <key> is <value>",
+      "description": "",
+      "properties": {
+        "key": "arrived",
+        "value": "true",
+        "valuer": "true"
+      },
+      "display": {
+        "x": -24,
+        "y": -252
+      },
+      "child": "66f6da08-ccff-44b9-804f-41fc616fdad1"
+    },
+    "39fcaff5-54e5-4142-85ef-5131027b6711": {
+      "id": "39fcaff5-54e5-4142-85ef-5131027b6711",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 96,
+        "y": 852
+      },
+      "children": [
+        "5b1e33a1-0d46-41e5-8725-aaa23c619c0b",
+        "e764a60a-9c8f-476c-928a-010c99be6357",
+        "622a5cf5-4e8f-4101-a805-65406a0243fe",
+        "382883c4-ba37-47d3-87d9-35c85efa3afa"
+      ]
+    },
+    "5b1e33a1-0d46-41e5-8725-aaa23c619c0b": {
+      "id": "5b1e33a1-0d46-41e5-8725-aaa23c619c0b",
+      "name": "SaveValueAs",
+      "title": "Save value <key1> as <key2>",
+      "description": "",
+      "properties": {
+        "key1": "targetRight",
+        "key2": "targetX"
+      },
+      "display": {
+        "x": 324,
+        "y": 780
+      }
+    },
+    "e764a60a-9c8f-476c-928a-010c99be6357": {
+      "id": "e764a60a-9c8f-476c-928a-010c99be6357",
+      "name": "FlyToTarget",
+      "title": "Fly to target",
+      "description": "",
+      "properties": {
+        "speed": 100,
+        "proximityRadius": 2
+      },
+      "display": {
+        "x": 264,
+        "y": 828
+      }
+    },
+    "622a5cf5-4e8f-4101-a805-65406a0243fe": {
+      "id": "622a5cf5-4e8f-4101-a805-65406a0243fe",
+      "name": "SetPositionToTarget",
+      "title": "Set position to a targets position",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 312,
+        "y": 876
+      }
+    },
+    "382883c4-ba37-47d3-87d9-35c85efa3afa": {
+      "id": "382883c4-ba37-47d3-87d9-35c85efa3afa",
+      "name": "CustomWait",
+      "title": "Wait <milliseconds>",
+      "description": "",
+      "properties": {
+        "milliseconds": 1000
+      },
+      "display": {
+        "x": 264,
+        "y": 924
+      }
+    },
+    "2f5b9ee8-a63a-4a9b-9ed0-52fcce27158f": {
+      "id": "2f5b9ee8-a63a-4a9b-9ed0-52fcce27158f",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 96,
+        "y": 1056
+      },
+      "children": [
+        "f302da08-af9f-472e-9354-2c469853a2e7",
+        "64e9a971-cdee-42b9-8637-351c47df3d10",
+        "f8cb9f87-6462-48b7-aae5-1d99d9f6d712",
+        "916c35b8-80a1-4569-ad1a-481c5015da39"
+      ]
+    },
+    "f302da08-af9f-472e-9354-2c469853a2e7": {
+      "id": "f302da08-af9f-472e-9354-2c469853a2e7",
+      "name": "SaveValueAs",
+      "title": "Save value <key1> as <key2>",
+      "description": "",
+      "properties": {
+        "key1": "targetLeft",
+        "key2": "targetX"
+      },
+      "display": {
+        "x": 324,
+        "y": 984
+      }
+    },
+    "64e9a971-cdee-42b9-8637-351c47df3d10": {
+      "id": "64e9a971-cdee-42b9-8637-351c47df3d10",
+      "name": "FlyToTarget",
+      "title": "Fly to target",
+      "description": "",
+      "properties": {
+        "speed": 100,
+        "proximityRadius": 2
+      },
+      "display": {
+        "x": 264,
+        "y": 1032
+      }
+    },
+    "f8cb9f87-6462-48b7-aae5-1d99d9f6d712": {
+      "id": "f8cb9f87-6462-48b7-aae5-1d99d9f6d712",
+      "name": "SetPositionToTarget",
+      "title": "Set position to a targets position",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 312,
+        "y": 1080
+      }
+    },
+    "916c35b8-80a1-4569-ad1a-481c5015da39": {
+      "id": "916c35b8-80a1-4569-ad1a-481c5015da39",
+      "name": "CustomWait",
+      "title": "Wait <milliseconds>",
+      "description": "",
+      "properties": {
+        "milliseconds": 1000
+      },
+      "display": {
+        "x": 264,
+        "y": 1128
+      }
+    },
+    "3c28649d-f7af-4b69-8b93-eae9a0e8ecdc": {
+      "id": "3c28649d-f7af-4b69-8b93-eae9a0e8ecdc",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -60,
+        "y": 84
+      },
+      "children": [
+        "c63c8013-5bf7-4f7e-8f82-e0582bd83841",
+        "c2fb97f3-e860-4e54-8aee-bce877672519"
+      ]
+    },
+    "c63c8013-5bf7-4f7e-8f82-e0582bd83841": {
+      "id": "c63c8013-5bf7-4f7e-8f82-e0582bd83841",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 72,
+        "y": 72
+      },
+      "children": [
+        "fed2ce34-7842-4693-836c-779360873643",
+        "ff2a83ed-8b94-4c8c-8c5d-01026cfe1961",
+        "b4fbcfa6-e932-499d-9d56-80992bdb108a"
+      ]
+    },
+    "ff2a83ed-8b94-4c8c-8c5d-01026cfe1961": {
+      "id": "ff2a83ed-8b94-4c8c-8c5d-01026cfe1961",
+      "name": "ShootForward",
+      "title": "Shoot forward",
+      "description": "",
+      "properties": {
+        "bulletImage": "bullets/shell1",
+        "damage": 10,
+        "mode": 2,
+        "velocity": 1000
+      },
+      "display": {
+        "x": 240,
+        "y": 108
+      }
+    },
+    "c2fb97f3-e860-4e54-8aee-bce877672519": {
+      "id": "c2fb97f3-e860-4e54-8aee-bce877672519",
+      "name": "Succeeder",
+      "title": "Succeeder",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 72,
+        "y": 228
+      }
+    },
+    "b4fbcfa6-e932-499d-9d56-80992bdb108a": {
+      "id": "b4fbcfa6-e932-499d-9d56-80992bdb108a",
+      "name": "SaveTimestamp",
+      "title": "Save current time as <key>",
+      "description": "",
+      "properties": {
+        "key": "shoot"
+      },
+      "display": {
+        "x": 276,
+        "y": 156
+      }
+    },
+    "5987f0b0-d476-4223-807c-23e36c8cf95b": {
+      "id": "5987f0b0-d476-4223-807c-23e36c8cf95b",
+      "name": "IsDeltaTimeGreaterThanValue",
+      "title": "Is timestamp delta in <key> greater than <value>",
+      "description": "",
+      "properties": {
+        "key": "previousManuver",
+        "value": 5000
+      },
+      "display": {
+        "x": 540,
+        "y": 276
+      }
+    },
+    "30e7082c-6920-4571-8b58-95e2ae44f45d": {
+      "id": "30e7082c-6920-4571-8b58-95e2ae44f45d",
+      "name": "SetPlayerAsTarget",
+      "title": "Set player as a target",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 396,
+        "y": 324
+      }
+    },
+    "2b810765-eb21-4434-8784-46b38ab5eb2f": {
+      "id": "2b810765-eb21-4434-8784-46b38ab5eb2f",
+      "name": "FlyToTarget",
+      "title": "Fly to target",
+      "description": "",
+      "properties": {
+        "speed": 500,
+        "proximityRadius": 10
+      },
+      "display": {
+        "x": 384,
+        "y": 384
+      }
+    },
+    "708c1c6c-7eac-4b50-898d-e433e1b90aa7": {
+      "id": "708c1c6c-7eac-4b50-898d-e433e1b90aa7",
+      "name": "SaveTimestamp",
+      "title": "Save current time as <key>",
+      "description": "",
+      "properties": {
+        "key": "previousManuver"
+      },
+      "display": {
+        "x": 468,
+        "y": 432
+      }
+    },
+    "4b73758c-1bf6-4360-82f8-acdc35ab72fc": {
+      "id": "4b73758c-1bf6-4360-82f8-acdc35ab72fc",
+      "name": "SaveValueAs",
+      "title": "Save value <key1> as <key2>",
+      "description": "",
+      "properties": {
+        "key1": "tempY",
+        "key2": "targetY"
+      },
+      "display": {
+        "x": 432,
+        "y": 528
+      }
+    },
+    "8080051d-0697-4a47-8aa9-6ae7e80bb0a8": {
+      "id": "8080051d-0697-4a47-8aa9-6ae7e80bb0a8",
+      "name": "SaveValueAs",
+      "title": "Save value <key1> as <key2>",
+      "description": "",
+      "properties": {
+        "key1": "tempX",
+        "key2": "targetX"
+      },
+      "display": {
+        "x": 432,
+        "y": 480
+      }
+    },
+    "64cf11f9-ab36-4b6a-9d9f-bb01a6db2af2": {
+      "id": "64cf11f9-ab36-4b6a-9d9f-bb01a6db2af2",
+      "name": "FlyToTarget",
+      "title": "Fly to target",
+      "description": "",
+      "properties": {
+        "speed": 1000,
+        "proximityRadius": 10
+      },
+      "display": {
+        "x": 384,
+        "y": 576
+      }
+    },
+    "b926ebcb-69af-4bfc-817d-a762a5395eca": {
+      "id": "b926ebcb-69af-4bfc-817d-a762a5395eca",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -12,
+        "y": 408
+      },
+      "children": [
+        "940b5a97-ce23-4e9a-82dc-6d94b7f72b42",
+        "a9f1364b-a9f7-4178-888d-0fb16ad5e378"
+      ]
+    },
+    "a9f1364b-a9f7-4178-888d-0fb16ad5e378": {
+      "id": "a9f1364b-a9f7-4178-888d-0fb16ad5e378",
+      "name": "Succeeder",
+      "title": "Succeeder",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 132,
+        "y": 564
+      }
+    },
+    "940b5a97-ce23-4e9a-82dc-6d94b7f72b42": {
+      "id": "940b5a97-ce23-4e9a-82dc-6d94b7f72b42",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 144,
+        "y": 396
+      },
+      "children": [
+        "5987f0b0-d476-4223-807c-23e36c8cf95b",
+        "30e7082c-6920-4571-8b58-95e2ae44f45d",
+        "2b810765-eb21-4434-8784-46b38ab5eb2f",
+        "708c1c6c-7eac-4b50-898d-e433e1b90aa7",
+        "8080051d-0697-4a47-8aa9-6ae7e80bb0a8",
+        "4b73758c-1bf6-4360-82f8-acdc35ab72fc",
+        "64cf11f9-ab36-4b6a-9d9f-bb01a6db2af2",
+        "e83577ce-69e5-47b1-8aa5-26a022c64048"
+      ]
+    },
+    "0ae2cd2d-b641-4a0e-8a75-ab33b0781fe7": {
+      "id": "0ae2cd2d-b641-4a0e-8a75-ab33b0781fe7",
+      "name": "SaveValueAs",
+      "title": "Save value <key1> as <key2>",
+      "description": "",
+      "properties": {
+        "key1": "targetX",
+        "key2": "tempX"
+      },
+      "display": {
+        "x": 612,
+        "y": -348
+      }
+    },
+    "312a3b94-99b8-4e23-9d20-c44bbdba5362": {
+      "id": "312a3b94-99b8-4e23-9d20-c44bbdba5362",
+      "name": "SaveValueAs",
+      "title": "Save value <key1> as <key2>",
+      "description": "",
+      "properties": {
+        "key1": "targetY",
+        "key2": "tempY"
+      },
+      "display": {
+        "x": 612,
+        "y": -300
+      }
+    },
+    "e83577ce-69e5-47b1-8aa5-26a022c64048": {
+      "id": "e83577ce-69e5-47b1-8aa5-26a022c64048",
+      "name": "SetPositionToTarget",
+      "title": "Set position to a targets position",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 444,
+        "y": 624
+      }
+    },
+    "95e3acbc-9465-4987-bc3d-63418e045c26": {
+      "id": "95e3acbc-9465-4987-bc3d-63418e045c26",
+      "name": "SetPositionToTarget",
+      "title": "Set position to a targets position",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 624,
+        "y": -252
+      }
+    },
+    "fed2ce34-7842-4693-836c-779360873643": {
+      "id": "fed2ce34-7842-4693-836c-779360873643",
+      "name": "IsDeltaTimeGreaterThanKey",
+      "title": "Is delta time for <timeKey> greater than value of key <valueKey>",
+      "description": "",
+      "properties": {
+        "timeKey": "shoot",
+        "valueKey": "reloadTime"
+      },
+      "display": {
+        "x": 420,
+        "y": 60
+      }
+    }
+  },
+  "display": {
+    "camera_x": 528,
+    "camera_y": 228.5,
+    "camera_z": 1,
+    "x": -396,
+    "y": -24
+  },
+  "custom_nodes": [
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetPlayerAsTarget",
+      "category": "action",
+      "title": "Set player as a target",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "ShootForward",
+      "category": "action",
+      "title": "Shoot forward",
+      "properties": {
+        "bulletImage": "bullets/shell1",
+        "damage": 0,
+        "mode": 1,
+        "velocity": 1000
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetVelocity",
+      "category": "action",
+      "title": "Set velocity",
+      "properties": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsTrue",
+      "category": "condition",
+      "title": "Is <key> true",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "CustomWait",
+      "category": "action",
+      "title": "Wait <milliseconds>",
+      "properties": {
+        "milliseconds": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetValue",
+      "category": "action",
+      "title": "Set <key> value to <value>",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "LessThanValue",
+      "category": "condition",
+      "title": "Is <key> less than <value>",
+      "properties": {
+        "key": "",
+        "value": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "GetPosition",
+      "category": "action",
+      "title": "Get entity position",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "GetVelocity",
+      "category": "action",
+      "title": "Get entity velocity",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "GreaterThanValue",
+      "category": "condition",
+      "title": "Is <key> greater than <value>",
+      "properties": {
+        "key": "",
+        "value": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsFalse",
+      "category": "condition",
+      "title": "Is <key> false",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SaveTimestamp",
+      "category": "action",
+      "title": "Save current time as <key>",
+      "properties": {
+        "key": ""
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsDeltaTimeGreaterThanValue",
+      "category": "condition",
+      "title": "Is timestamp delta in <key> greater than <value>",
+      "properties": {
+        "key": "",
+        "value": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsDeltaTimeLessThanValue",
+      "category": "condition",
+      "title": "Is timestamp delta in <key> less than <value>",
+      "properties": {
+        "key": "",
+        "value": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetRandomTarget",
+      "category": "action",
+      "title": "Set random target",
+      "properties": {
+        "minX": 0,
+        "maxX": 720,
+        "minY": 0,
+        "maxY": 1280
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "ShootTriple",
+      "category": "action",
+      "title": "Shoot triple",
+      "properties": {
+        "bulletImage": "bullets/shell1",
+        "damage": 0,
+        "mode": 1,
+        "velocity": 1000
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "EnableShield",
+      "category": "action",
+      "title": "Enable shields",
+      "properties": {
+        "duration": 10000
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetPositionAsTarget",
+      "category": "action",
+      "title": "Set current position as target",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SaveValueAs",
+      "category": "action",
+      "title": "Save value <key1> as <key2>",
+      "description": null,
+      "properties": {
+        "key1": "",
+        "key2": ""
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "GetDeltaTarget",
+      "category": "action",
+      "title": "Get Manhattan distance to target",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "FlyToTarget",
+      "category": "action",
+      "title": "Fly to target",
+      "properties": {
+        "speed": 100,
+        "proximityRadius": 30
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetTarget",
+      "category": "action",
+      "title": "Set target",
+      "properties": {
+        "x": 0,
+        "y": 0,
+        "relativeToCurrentPosition": "false"
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsKeyALessThanKeyB",
+      "category": "condition",
+      "title": "Is value of key <key1> less than value of <key2>",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsKeyAGreaterThanKeyB",
+      "category": "condition",
+      "title": "Is value of <key1> greater than value of <key2>",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "DisableDecorator",
+      "category": "decorator",
+      "title": "Disable child node if value of <key> is <value>",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetPositionToTarget",
+      "category": "action",
+      "title": "Set position to a targets position",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsDeltaTimeGreaterThanKey",
+      "category": "condition",
+      "title": "Is delta time for <timeKey> greater than value of key <valueKey>",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "FollowPath",
+      "category": "action",
+      "title": "Follow path",
+      "properties": {
+        "speed": 100,
+        "proximityRadius": 30
+      }
+    }
+  ]
+}
