@@ -1,0 +1,141 @@
+texture={
+	name=green_knight.texture
+}
+
+idle={
+	firstFrame=12
+	frameCount=1
+	frameTime=1.0
+}
+
+dead={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+sit={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+jump_no_sword={
+	firstFrame=1
+	frameCount=1
+	frameTime=1.0
+}
+
+jump={
+	firstFrame=5
+	frameCount=1
+	frameTime=1.0
+}
+
+fall={
+	firstFrame=5
+	frameCount=1
+	frameTime=1.0
+}
+
+land_after_sit={
+	firstFrame=3
+	frameCount=2
+	frameTime=24.0
+}
+
+land={
+	firstFrame=12
+	frameCount=1
+	frameTime=20.0
+}
+
+begin_draw={
+	firstFrame=2
+	frameCount=1
+	frameTime=12.0
+}
+
+draw={
+	firstFrame=2
+	frameCount=3
+	frameTime=16.0
+}
+
+draw_wait={
+	firstFrame=4
+	frameCount=1
+	frameTime=10.0
+}
+
+start_dash={
+	firstFrame=6
+	frameCount=1
+	frameTime=32.0
+}
+
+dash={
+	firstFrame=7
+	frameCount=1
+	frameTime=6.0
+}
+
+stop_dash={
+	firstFrame=6
+	frameCount=1
+	frameTime=1.0
+}
+
+dash_cooldown={
+	firstFrame=4
+	frameCount=1
+	frameTime=16.0
+}
+
+salto={
+	firstFrame=8
+	frameCount=1
+	frameTime=16.0
+}
+
+throw_start={
+	firstFrame=9
+	frameCount=1
+	frameTime=32.0
+}
+
+throw={
+	firstFrame=9
+	frameCount=3
+	frameTime=8.0
+}
+
+hit={
+	firstFrame=13
+	frameCount=1
+	frameTime=16.0
+}
+
+salto_cooldown={
+	firstFrame=14
+	frameCount=1
+	frameTime=16.0
+}
+
+die={
+	firstFrame=13
+	frameCount=1
+	frameTime=10.0
+}
+
+fireballs={
+	firstFrame=15
+	frameCount=1
+	frameTime=10.0
+}
+
+land_fireballs={
+	firstFrame=14
+	frameCount=1
+	frameTime=32.0
+}

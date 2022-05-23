@@ -1,0 +1,117 @@
+texture={
+	name=wolfman.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=2
+	frameTime=16.0
+}
+
+run={
+	firstFrame=2
+	frameCount=4
+	frameTime=8.0
+}
+
+uppercut={
+	firstFrame=6
+	frameCount=2
+	frameTime=8.0
+}
+
+uppercut_fly={
+	firstFrame=7
+	frameCount=1
+	frameTime=10.0
+}
+
+jump={
+	firstFrame=7
+	frameCount=1
+	frameTime=10.0
+}
+
+superman={
+	firstFrame=6
+	frameCount=2
+	frameTime=48.0
+}
+
+fall={
+	firstFrame=8
+	frameCount=1
+	frameTime=1.0
+}
+
+land={
+	firstFrame=9
+	frameCount=1
+	frameTime=18.0
+}
+
+rush={
+	firstFrame=9
+	frameCount=2
+	frameTime=36.0
+}
+
+break={
+	firstFrame=11
+	frameCount=1
+	frameTime=1.0
+}
+
+punch_3={
+	firstFrame=12
+	frameCount=4
+	frameTime=20.0
+}
+
+punch_2={
+	firstFrame=12
+	frameCount=4
+	frameTime=15.0
+}
+
+punch_1={
+	firstFrame=12
+	frameCount=4
+	frameTime=10.0
+}
+
+fly={
+	firstFrame=17
+	frameCount=1
+	frameTime=1.0
+}
+
+crash={
+	firstFrame=18
+	frameCount=2
+	frameTime=4.0
+}
+
+wiggle={
+	firstFrame=19
+	frameCount=2
+	frameTime=10.0
+}
+
+recover={
+	firstFrame=21
+	frameCount=3
+	frameTime=10.0
+}
+
+hurt={
+	firstFrame=21
+	frameCount=1
+	frameTime=40.0
+}
+
+dead={
+	firstFrame=24
+	frameCount=5
+	frameTime=10.0
+}
