@@ -1,0 +1,16 @@
+texture={
+	name=fish.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=1
+	frameTime=10.0
+}
+
+run={
+	firstFrame=0
+	frameCount=4
+	frameTime=10.0
+	looptype=2
+}

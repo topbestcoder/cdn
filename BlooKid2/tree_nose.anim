@@ -1,0 +1,15 @@
+texture={
+	name=tree_nose.texture
+}
+
+normal={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+hurt={
+	firstFrame=1
+	frameCount=1
+	frameTime=1.0
+}

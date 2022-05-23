@@ -1,0 +1,22 @@
+texture={
+	name=special_star.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+spin={
+	firstFrame=0
+	frameCount=16
+	frameTime=6.0
+	looptype=2
+}
+
+fastspin={
+	firstFrame=0
+	frameCount=16
+	frameTime=2.0
+}

@@ -1,0 +1,16 @@
+animation=special_star.anim
+lifetime=3.0
+minVelocityX=0
+maxVelocityX=0
+minVelocityY=0
+maxVelocityY=0
+startScale=1.0
+endScale=4.0
+sizeX=16
+sizeY=16
+fadeOut=True
+applyGravity=False
+hasWorldCollision=False
+friction=0
+bounce=0
+blend=1

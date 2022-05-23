@@ -1,0 +1,9 @@
+image=knight
+frameSizeX=28
+frameSizeY=22
+tilecollision=knight_tile.shape
+actorcollision=knight.shape
+handleX=13
+handleY=13
+imageWidth=112
+imageHeight=66

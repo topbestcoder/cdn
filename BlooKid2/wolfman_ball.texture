@@ -1,0 +1,8 @@
+image=wolfman_ball
+frameSizeX=16
+frameSizeY=16
+handleX=16
+tilecollision=wolfman_ball.shape
+actorcollision=wolfman_ball.shape
+imageWidth=16
+imageHeight=16

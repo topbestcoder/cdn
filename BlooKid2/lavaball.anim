@@ -1,0 +1,21 @@
+texture={
+	name=lavaball.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=4
+	frameTime=4.0
+}
+
+jump={
+	firstFrame=0
+	frameCount=4
+	frameTime=4.0
+}
+
+fall={
+	firstFrame=0
+	frameCount=4
+	frameTime=4.0
+}

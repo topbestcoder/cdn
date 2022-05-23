@@ -1,0 +1,9 @@
+image=firebloo
+frameSizeX=20
+frameSizeY=20
+handleY=12
+tilecollision=bloo.shape
+actorcollision=bloo.shape
+imageWidth=120
+imageHeight=120
+permanent=true

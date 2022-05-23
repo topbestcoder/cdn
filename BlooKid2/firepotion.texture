@@ -1,0 +1,7 @@
+image=firepotion
+frameSizeX=16
+frameSizeY=20
+tilecollision=firepotion_tiles.shape
+actorcollision=firepotion.shape
+imageWidth=16
+imageHeight=20

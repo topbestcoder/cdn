@@ -1,0 +1,8 @@
+image=treasure
+frameSizeX=24
+frameSizeY=18
+handleY=9
+actorcollision=treasure.shape
+tilecollision=treasure_tile.shape
+imageWidth=48
+imageHeight=18

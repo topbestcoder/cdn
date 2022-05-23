@@ -1,0 +1,10 @@
+image=controls_right
+frameSizeX=96
+frameSizeY=96
+targetSizeX=24
+targetSizeY=24
+alpha=0.3
+permanent=1
+filtered=true
+imageWidth=96
+imageHeight=96

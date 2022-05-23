@@ -1,0 +1,21 @@
+texture={
+	name=cutscene_snake.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=1
+	frameTime=8.0
+}
+
+turn={
+	firstFrame=0
+	frameCount=3
+	frameTime=18.0
+}
+
+blink={
+	firstFrame=2
+	frameCount=7
+	frameTime=3.0
+}

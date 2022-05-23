@@ -1,0 +1,9 @@
+animation=lava_smoke.anim
+lifetime=10.0
+fadeOut=True
+rotationSpeed=20.0
+destroyInWater=True
+weight=-0.075
+applyGravity=True
+startScale=0.5
+endScale=2.0

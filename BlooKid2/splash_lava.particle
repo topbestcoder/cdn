@@ -1,0 +1,16 @@
+animation=splash_lava.anim
+lifetime=6.0
+sizeX=12
+sizeY=12
+fadeOut=True
+applyGravity=True
+directionIsAngle=True
+sizeX=4
+sizeY=4
+startScale=1.0
+endScale=0.5
+weight=0.75
+destroyInWater=True
+hasWorldCollision=True
+bounce=0.75
+friction=1.0

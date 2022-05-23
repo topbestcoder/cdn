@@ -1,0 +1,22 @@
+texture={
+	name=star_small_collision.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=16
+	frameTime=3.0
+}
+
+spin={
+	firstFrame=0
+	frameCount=16
+	frameTime=6.0
+	looptype=2
+}
+
+fastspin={
+	firstFrame=0
+	frameCount=16
+	frameTime=2.0
+}

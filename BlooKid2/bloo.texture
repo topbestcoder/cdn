@@ -1,0 +1,9 @@
+image=bloo
+frameSizeX=20
+frameSizeY=20
+tilecollision=bloo.shape
+actorcollision=bloo.shape
+handleY=12
+permanent=true
+imageWidth=120
+imageHeight=120

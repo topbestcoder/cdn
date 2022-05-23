@@ -1,0 +1,21 @@
+texture={
+	name=green_knight_sword.texture
+}
+
+idle={
+	firstFrame=3
+	frameCount=1
+	frameTime=1.0
+}
+
+blink={
+	firstFrame=0
+	frameCount=4
+	frameTime=5.0
+}
+
+attack={
+	firstFrame=3
+	frameCount=1
+	frameTime=2.0
+}

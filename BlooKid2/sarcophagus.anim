@@ -1,0 +1,15 @@
+texture={
+	name=sarcophagus.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+open={
+	firstFrame=1
+	frameCount=1
+	frameTime=1.0
+}

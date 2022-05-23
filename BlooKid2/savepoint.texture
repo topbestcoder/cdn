@@ -1,0 +1,9 @@
+image=savepoint
+frameSizeX=16
+frameSizeY=32
+imageWidth=64
+imageHeight=32
+handleY=32
+tilecollision=savepoint.shape
+actorcollision=savepoint.shape
+visiblecollision=savepoint_visible.shape

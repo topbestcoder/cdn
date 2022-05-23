@@ -1,0 +1,21 @@
+texture={
+	name=tree_eyes.texture
+}
+
+hurt={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+normal={
+	firstFrame=1
+	frameCount=1
+	frameTime=1.0
+}
+
+angry={
+	firstFrame=2
+	frameCount=1
+	frameTime=1.0
+}

@@ -1,0 +1,21 @@
+texture={
+	name=hud_enemy.texture
+}
+
+idle={
+	firstFrame=3
+	frameCount=1
+	frameTime=1.0
+}
+
+normal={
+	firstFrame=0
+	frameCount=4
+	frameTime=6.0
+}
+
+dead={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}

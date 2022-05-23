@@ -1,0 +1,21 @@
+texture={
+	name=kotze.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=1
+	frameTime=10.0
+}
+
+fly={
+	firstFrame=0
+	frameCount=4
+	frameTime=10.0
+}
+
+land={
+	firstFrame=4
+	frameCount=4
+	frameTime=10.0
+}
