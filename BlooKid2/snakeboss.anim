@@ -1,0 +1,57 @@
+texture={
+	name=snakeboss.texture
+}
+
+hurt={
+	firstFrame=0
+	frameCount=4
+	frameTime=10.0
+}
+
+idle={
+	firstFrame=3
+	frameCount=1
+	frameTime=1.0
+}
+
+attack={
+	firstFrame=3
+	frameCount=4
+	frameTime=8.0
+}
+
+jump={
+	firstFrame=5
+	frameCount=1
+	frameTime=1.0
+}
+
+body0={
+	firstFrame=7
+	frameCount=1
+	frameTime=1.0
+}
+
+body1={
+	firstFrame=8
+	frameCount=1
+	frameTime=1.0
+}
+
+body2={
+	firstFrame=9
+	frameCount=1
+	frameTime=1.0
+}
+
+body3={
+	firstFrame=10
+	frameCount=1
+	frameTime=1.0
+}
+
+body4={
+	firstFrame=11
+	frameCount=1
+	frameTime=1.0
+}

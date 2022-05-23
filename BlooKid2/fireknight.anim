@@ -1,0 +1,59 @@
+texture={
+	name=fireknight.texture
+}
+
+idle={
+	firstFrame=1
+	frameCount=2
+	frameTime=10.0
+}
+
+run={
+	firstFrame=0
+	frameCount=4
+	frameTime=8.0
+}
+
+jump={
+	firstFrame=4
+	frameCount=2
+	frameTime=8.0
+}
+
+swim={
+	firstFrame=4
+	frameCount=2
+	frameTime=8.0
+}
+
+fall={
+	firstFrame=4
+	frameCount=2
+	frameTime=8.0
+}
+
+attack={
+	firstFrame=7
+	frameCount=1
+	frameTime=18.0
+	looptype=1
+}
+
+dash={
+	firstFrame=8
+	frameCount=2
+	frameTime=10.0
+	looptype=2
+}
+
+dead={
+	firstFrame=10
+	frameCount=1
+	frameTime=1.0
+}
+
+block={
+	firstFrame=11
+	frameCount=2
+	frameTime=20.0
+}
