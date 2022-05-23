@@ -1,0 +1,39 @@
+texture={
+	name=health.texture
+}
+
+0={
+	firstFrame=0
+	frameCount=0
+	frameTime=1.0
+}
+
+1={
+	firstFrame=1
+	frameCount=0
+	frameTime=1.0
+}
+
+2={
+	firstFrame=2
+	frameCount=0
+	frameTime=1.0
+}
+
+3={
+	firstFrame=3
+	frameCount=0
+	frameTime=1.0
+}
+
+4={
+	firstFrame=4
+	frameCount=0
+	frameTime=1.0
+}
+
+5={
+	firstFrame=5
+	frameCount=0
+	frameTime=1.0
+}

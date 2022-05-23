@@ -1,0 +1,27 @@
+texture={
+	name=menu_rating_background.texture
+}
+
+normal={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+bronze={
+	firstFrame=1
+	frameCount=1
+	frameTime=1.0
+}
+
+silver={
+	firstFrame=2
+	frameCount=1
+	frameTime=1.0
+}
+
+gold={
+	firstFrame=3
+	frameCount=1
+	frameTime=1.0
+}

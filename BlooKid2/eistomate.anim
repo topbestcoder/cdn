@@ -1,0 +1,30 @@
+texture={
+	name=eistomate.texture
+}
+
+run={
+	firstFrame=0
+	frameCount=4
+	frameTime=10.0
+	looptype=2
+}
+
+idle={
+	firstFrame=0
+	frameCount=4
+	frameTime=10.0
+	looptype=2
+}
+
+shoot={
+	firstFrame=4
+	frameCount=7
+	frameTime=5.0
+	looptype=1
+}
+
+dead={
+	firstFrame=11
+	frameCount=1
+	frameTime=1.0
+}

@@ -1,0 +1,28 @@
+texture={
+	name=manos.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+open={
+	firstFrame=2
+	frameCount=3
+	frameTime=18.0
+	looptype=3
+}
+
+close={
+	firstFrame=0
+	frameCount=3
+	frameTime=6.0
+}
+
+dead={
+	firstFrame=5
+	frameCount=1
+	frameTime=1.0
+}

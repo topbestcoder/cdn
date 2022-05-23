@@ -1,0 +1,33 @@
+texture={
+	name=pink.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=0
+	frameTime=1.0
+}
+
+scared={
+	firstFrame=1
+	frameCount=1
+	frameTime=1.0
+}
+
+cry={
+	firstFrame=2
+	frameCount=2
+	frameTime=10.0
+}
+
+jump={
+	firstFrame=4
+	frameCount=1
+	frameTime=1.0
+}
+
+stand={
+	firstFrame=5
+	frameCount=1
+	frameTime=1.0
+}

@@ -1,0 +1,27 @@
+texture={
+	name=libelle.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+fly={
+	firstFrame=0
+	frameCount=8
+	frameTime=5.0
+}
+
+run={
+	firstFrame=0
+	frameCount=8
+	frameTime=5.0
+}
+
+dead={
+	firstFrame=8
+	frameCount=1
+	frameTime=1.0
+}

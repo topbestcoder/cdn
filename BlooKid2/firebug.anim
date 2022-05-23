@@ -1,0 +1,33 @@
+texture={
+	name=firebug.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=3
+	frameTime=6.0
+}
+
+run={
+	firstFrame=0
+	frameCount=3
+	frameTime=6.0
+}
+
+jump={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+fall={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+dead={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}

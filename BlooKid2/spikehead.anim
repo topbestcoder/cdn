@@ -1,0 +1,27 @@
+texture={
+	name=spikehead.texture
+}
+
+run={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+jump={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+fall={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+idle={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}

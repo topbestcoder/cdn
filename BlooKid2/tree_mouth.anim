@@ -1,0 +1,33 @@
+texture={
+	name=tree_mouth.texture
+}
+
+normal={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+suck={
+	firstFrame=1
+	frameCount=2
+	frameTime=6.0
+}
+
+hurt={
+	firstFrame=1
+	frameCount=2
+	frameTime=8.0
+}
+
+start_attack={
+	firstFrame=1
+	frameCount=4
+	frameTime=8.0
+}
+
+attack={
+	firstFrame=5
+	frameCount=3
+	frameTime=16.0
+}

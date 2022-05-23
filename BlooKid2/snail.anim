@@ -1,0 +1,39 @@
+texture={
+	name=snail.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+run={
+	firstFrame=0
+	frameCount=4
+	frameTime=12.0
+}
+
+swim={
+	firstFrame=0
+	frameCount=4
+	frameTime=18.0
+}
+
+fall={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+jump={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+dead={
+	firstFrame=4
+	frameCount=1
+	frameTime=1.0
+}
