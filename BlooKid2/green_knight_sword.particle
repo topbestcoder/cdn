@@ -1,0 +1,4 @@
+animation=green_knight_sword_particle.anim
+lifetime=2.0
+fadeOut=True
+fade=true

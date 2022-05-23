@@ -1,0 +1,5 @@
+animation=small_explosion.anim
+lifetime=5.0
+sizeX=12
+sizeY=12
+friction=0.5

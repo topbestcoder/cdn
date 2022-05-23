@@ -1,0 +1,4 @@
+animation=green_knight_dash_particle.anim
+lifetime=3.0
+fadeOut=True
+fade=true
