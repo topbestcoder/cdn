@@ -1,0 +1,75 @@
+texture={
+	name=snowbomb.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}
+
+run={
+	firstFrame=0
+	frameCount=4
+	frameTime=8.0
+	looptype=2
+}
+
+jump={
+	firstFrame=1
+	frameCount=0
+	frameTime=1.0
+}
+
+fall={
+	firstFrame=1
+	frameCount=0
+	frameTime=1.0
+}
+
+swim={
+	firstFrame=0
+	frameCount=4
+	frameTime=10.0
+	looptype=2
+}
+
+swim_slow={
+	firstFrame=0
+	frameCount=4
+	frameTime=12.0
+	looptype=2
+}
+
+dead={
+	firstFrame=4
+	frameCount=2
+	frameTime=8.0
+}
+
+wiggle={
+	firstFrame=4
+	frameCount=2
+	frameTime=8.0
+	looptype=2
+}
+
+blink_slow={
+	firstFrame=6
+	frameCount=2
+	frameTime=12.0
+	looptype=2
+}
+
+blink_fast={
+	firstFrame=6
+	frameCount=2
+	frameTime=6.0
+	looptype=2
+}
+
+wait={
+	firstFrame=8
+	frameCount=1
+	frameTime=1.0
+}

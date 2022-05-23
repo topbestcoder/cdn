@@ -1,0 +1,107 @@
+texture={
+	name=firebloo.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=4
+	frameTime=6.0
+}
+
+blink={
+	firstFrame=3
+	frameCount=3
+	frameTime=6.0
+}
+
+keuch={
+	firstFrame=6
+	frameCount=2
+	frameTime=20.0
+}
+
+run={
+	firstFrame=8
+	frameCount=6
+	frameTime=6.0
+}
+
+turn={
+	firstFrame=14
+	frameCount=1
+	frameTime=1.0
+}
+
+jump={
+	firstFrame=15
+	frameCount=2
+	frameTime=6.0
+}
+
+doublejump={
+	firstFrame=21
+	frameCount=8
+	frameTime=2.8
+	looptype=2
+}	
+
+fall={
+	firstFrame=17
+	frameCount=2
+	frameTime=6.0
+}
+
+swim={
+	firstFrame=19
+	frameCount=2
+	frameTime=8.0
+}
+
+swim_slow={
+	firstFrame=19
+	frameCount=2
+	frameTime=10.0
+}
+
+dead={
+	firstFrame=29
+	frameCount=2
+	frameTime=8.0
+	looptype=2
+}
+
+success={
+	firstFrame=31
+	frameCount=1
+	frameTime=1.0
+}
+
+firepotion={
+	firstFrame=32
+	frameCount=2
+	frameTime=4.0
+}
+
+fiffi={
+	firstFrame=0
+	frameCount=4
+	frameTime=4.0
+}
+
+fiffi_fast={
+	firstFrame=0
+	frameCount=4
+	frameTime=3.0
+}
+
+look_up={
+	firstFrame=0
+	frameCount=4
+	frameTime=6.0
+}
+
+look_down={
+	firstFrame=0
+	frameCount=4
+	frameTime=6.0
+}

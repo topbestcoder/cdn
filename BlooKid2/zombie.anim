@@ -1,0 +1,84 @@
+texture={
+	name=zombie.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=2
+	frameTime=10.0
+}
+
+run={
+	firstFrame=1
+	frameCount=4
+	frameTime=10.0
+	looptype=2
+}
+
+jump={
+	firstFrame=5
+	frameCount=0
+	frameTime=1.0
+}
+
+fall={
+	firstFrame=5
+	frameCount=0
+	frameTime=1.0
+}
+
+swim={
+	firstFrame=1
+	frameCount=4
+	frameTime=10.0
+	looptype=2
+}
+
+swim_slow={
+	firstFrame=1
+	frameCount=4
+	frameTime=12.0
+	looptype=2
+}
+
+dead={
+	firstFrame=13
+	frameCount=1
+	frameTime=0.0
+}
+
+sleep={
+	firstFrame=14
+	frameCount=1
+	frameTime=1.0
+}
+
+rise={
+	firstFrame=14
+	frameCount=6
+	frameTime=8.0
+}
+
+attack={
+	firstFrame=6
+	frameCount=4
+	frameTime=10.0
+}
+
+wiggle={
+	firstFrame=10
+	frameCount=2
+	frameTime=6.0
+}
+
+puke={
+	firstFrame=12
+	frameCount=1
+	frameTime=40.0
+}
+
+slide={
+	firstFrame=20
+	frameCount=1
+	frameTime=10.0
+}

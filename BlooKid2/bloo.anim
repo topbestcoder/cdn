@@ -1,0 +1,113 @@
+texture={
+	name=bloo.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=0
+	frameTime=10.0
+}
+
+blink={
+	firstFrame=0
+	frameCount=3
+	frameTime=6.0
+}
+
+keuch={
+	firstFrame=3
+	frameCount=2
+	frameTime=20.0
+}
+
+run={
+	firstFrame=5
+	frameCount=6
+	frameTime=6.0
+}
+
+turn={
+	firstFrame=11
+	frameCount=1
+	frameTime=1.0
+}
+
+jump={
+	firstFrame=12
+	frameCount=2
+	frameTime=6.0
+}
+
+doublejump={
+	firstFrame=18
+	frameCount=8
+	frameTime=2.8
+	looptype=2
+}	
+
+fall={
+	firstFrame=14
+	frameCount=2
+	frameTime=6.0
+}
+
+swim={
+	firstFrame=16
+	frameCount=2
+	frameTime=8.0
+}
+
+swim_slow={
+	firstFrame=16
+	frameCount=2
+	frameTime=10.0
+}
+
+dead={
+	firstFrame=26
+	frameCount=2
+	frameTime=8.0
+	looptype=2
+}
+
+success={
+	firstFrame=28
+	frameCount=1
+	frameTime=1.0
+}
+
+fiffi={
+	firstFrame=29
+	frameCount=2
+	frameTime=6.0
+}
+
+fiffi_fast={
+	firstFrame=31
+	frameCount=2
+	frameTime=4.0
+}
+
+scared={
+	firstFrame=33
+	frameCount=1
+	frameTime=1.0
+}
+
+jump_no_hair={
+	firstFrame=12
+	frameCount=1
+	frameTime=1.0
+}
+
+look_up={
+	firstFrame=34
+	frameCount=1
+	frameTime=1.0
+}
+
+look_down={
+	firstFrame=35
+	frameCount=1
+	frameTime=1.0
+}
