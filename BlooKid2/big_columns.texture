@@ -1,0 +1,6 @@
+image=big_columns
+frameSizeX=256
+frameSizeY=256
+imageWidth=256
+imageHeight=256
+zDepth=0.8

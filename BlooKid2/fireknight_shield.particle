@@ -1,0 +1,4 @@
+animation=fireknight_shield.anim
+lifetime=100.0
+applyGravity=True
+rotationSpeed=40.0

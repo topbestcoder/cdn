@@ -1,0 +1,9 @@
+texture={
+	name=hit.texture
+}
+
+normal={
+	firstFrame=0
+	frameCount=1
+	frameTime=20.0	
+}

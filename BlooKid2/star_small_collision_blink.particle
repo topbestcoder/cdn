@@ -1,0 +1,6 @@
+animation=star_small_collision.anim
+lifetime=4.0
+sizeX=16
+sizeY=16
+fadeOut=True
+blend=0

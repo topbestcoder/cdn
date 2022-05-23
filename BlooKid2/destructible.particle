@@ -1,0 +1,5 @@
+animation=destructible_particle.anim
+lifetime=40.0
+sizeX=8
+sizeY=8
+applyGravity=True
