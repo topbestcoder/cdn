@@ -1,0 +1,45 @@
+texture={
+	name=skeletonfish.texture
+}
+
+wait={
+	firstFrame=0
+	frameCount=6
+	frameTime=12.0
+}
+
+idle={
+	firstFrame=0
+	frameCount=6
+	frameTime=6.0
+}
+
+run={
+	firstFrame=0
+	frameCount=6
+	frameTime=6.0
+}
+
+jump={
+	firstFrame=0
+	frameCount=6
+	frameTime=6.0
+}
+
+fall={
+	firstFrame=0
+	frameCount=6
+	frameTime=6.0
+}
+
+blink={
+	firstFrame=6
+	frameCount=8
+	frameTime=4.0
+}
+
+dead={
+	firstFrame=14
+	frameCount=1
+	frameTime=10.0
+}
