@@ -1,0 +1,5 @@
+animation=hit.anim
+lifetime=2.0
+sizeX=12
+sizeY=12
+fadeOut=True
