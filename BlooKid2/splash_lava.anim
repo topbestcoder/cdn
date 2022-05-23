@@ -1,0 +1,9 @@
+texture={
+	name=splash_lava.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=5
+	frameTime=10.0
+}

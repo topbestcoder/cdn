@@ -1,0 +1,9 @@
+texture={
+	name=firepotion.texture
+}
+
+run={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}

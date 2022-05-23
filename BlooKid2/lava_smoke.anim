@@ -1,0 +1,9 @@
+texture={
+	name=lava_smoke.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}

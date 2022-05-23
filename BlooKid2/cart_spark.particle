@@ -1,0 +1,6 @@
+animation=cart_spark.anim
+lifetime=8.0
+destroyInWater=True
+blend=1
+fadeOut=True
+applyGravity=True

@@ -1,0 +1,9 @@
+texture={
+	name=lavaball_glow.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=1
+	frameTime=1.0
+}

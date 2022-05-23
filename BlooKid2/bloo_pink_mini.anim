@@ -1,0 +1,9 @@
+texture={
+	name=bloo_pink_mini.texture
+}
+
+run={
+	firstFrame=0
+	frameCount=6
+	frameTime=6.0
+}

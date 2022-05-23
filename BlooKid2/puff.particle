@@ -1,0 +1,7 @@
+animation=puff.anim
+lifetime=5.0
+sizeX=8
+sizeY=8
+fadeOut=True
+startScale=1.0
+endScale=2.0

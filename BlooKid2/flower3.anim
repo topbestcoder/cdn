@@ -1,0 +1,9 @@
+texture={
+	name=flower3.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=4
+	frameTime=20.0
+}

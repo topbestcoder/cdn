@@ -1,0 +1,9 @@
+texture={
+	name=zapfen_splitter.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=1
+	frameTime=10.0
+}

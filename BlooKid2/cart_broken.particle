@@ -1,0 +1,6 @@
+animation=cart_broken.anim
+lifetime=40.0
+sizeX=24
+sizeY=16
+applyGravity=True
+rotationSpeed=20.0

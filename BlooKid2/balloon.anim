@@ -1,0 +1,9 @@
+texture={
+	name=balloon.texture
+}
+
+idle={
+	firstFrame=0
+	frameCount=8
+	frameTime=6.0
+}
