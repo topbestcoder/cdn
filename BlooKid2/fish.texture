@@ -1,0 +1,7 @@
+image=fish
+frameSizeX=24
+frameSizeY=22
+tilecollision=fish.shape
+actorcollision=fish.shape
+imageWidth=96
+imageHeight=22

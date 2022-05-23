@@ -1,0 +1,8 @@
+animation=red_fire.anim
+lifetime=12.0
+rotationSpeed=20.0
+destroyInWater=True
+blend=1
+fadeOut=True
+startScale=1.0
+endScale=0.5

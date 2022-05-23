@@ -1,0 +1,7 @@
+image=special_star
+frameSizeX=16
+frameSizeY=16
+tilecollision=star.shape
+actorcollision=star.shape
+imageWidth=64
+imageHeight=64

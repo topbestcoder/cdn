@@ -1,0 +1,7 @@
+image=heart
+frameSizeX=14
+frameSizeY=12
+tilecollision=heart_tiles.shape
+actorcollision=heart.shape
+imageWidth=14
+imageHeight=12

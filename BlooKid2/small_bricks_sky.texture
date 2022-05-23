@@ -1,0 +1,7 @@
+image=small_bricks_sky
+frameSizeX=64
+frameSizeY=256
+alphatest=false
+imageWidth=64
+imageHeight=256
+zDepth=1.0

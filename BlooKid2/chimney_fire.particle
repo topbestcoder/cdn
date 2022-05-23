@@ -1,0 +1,8 @@
+animation=chimney_fire.anim
+lifetime=8.0
+rotationSpeed=20.0
+destroyInWater=True
+blend=1
+fadeOut=True
+startScale=0.75
+endScale=0.5

@@ -1,0 +1,8 @@
+image=clouds_small
+frameSizeX=256
+frameSizeY=32
+alpha=0.6
+blend=0
+zDepth=0.4
+imageWidth=256
+imageHeight=32

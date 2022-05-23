@@ -1,0 +1,6 @@
+image=splash_lava
+frameSizeX=10
+frameSizeY=14
+tilecollision=splash.shape
+imageWidth=50
+imageHeight=14

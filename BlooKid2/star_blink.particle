@@ -1,0 +1,8 @@
+animation=star.anim
+lifetime=1.0
+startScale=1.0
+endScale=3.0
+sizeX=16
+sizeY=16
+fadeOut=True
+blend=1

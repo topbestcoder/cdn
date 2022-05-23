@@ -1,0 +1,7 @@
+image=exit
+frameSizeX=20
+frameSizeY=24
+tilecollision=exit.shape
+actorcollision=exit.shape
+imageWidth=20
+imageHeight=24

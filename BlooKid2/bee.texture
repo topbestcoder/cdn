@@ -1,0 +1,7 @@
+image=bee
+frameSizeX=24
+frameSizeY=20
+tilecollision=bee.shape
+actorcollision=bee.shape
+imageWidth=120
+imageHeight=20

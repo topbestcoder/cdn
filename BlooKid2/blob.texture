@@ -1,0 +1,8 @@
+image=blob
+frameSizeX=20
+frameSizeY=18
+handleY=10
+tilecollision=blob.shape
+actorcollision=blob.shape
+imageWidth=100
+imageHeight=18

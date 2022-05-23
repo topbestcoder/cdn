@@ -1,0 +1,6 @@
+image=balloon
+frameSizeX=20
+frameSizeY=38
+actorcollision=balloon.shape
+imageWidth=160
+imageHeight=38

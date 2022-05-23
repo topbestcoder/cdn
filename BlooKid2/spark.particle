@@ -1,0 +1,7 @@
+animation=spark.anim
+lifetime=8.0
+destroyInWater=True
+blend=1
+fadeOut=True
+weight=-0.1
+applyGravity=True

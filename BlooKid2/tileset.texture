@@ -1,0 +1,8 @@
+image=tileset
+frameSizeX=16
+frameSizeY=16
+handleX=0
+handleY=0
+permanent=true
+imageWidth=512
+imageHeight=1024

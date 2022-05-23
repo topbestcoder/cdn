@@ -1,0 +1,9 @@
+texture={
+	name=small_explosion.texture
+}
+
+normal={
+	firstFrame=0
+	frameCount=6
+	frameTime=4.0
+}

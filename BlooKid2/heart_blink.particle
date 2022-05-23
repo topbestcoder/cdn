@@ -1,0 +1,8 @@
+animation=heart.anim
+lifetime=2.0
+startScale=1.0
+endScale=4.0
+sizeX=16
+sizeY=16
+fadeOut=True
+blend=1

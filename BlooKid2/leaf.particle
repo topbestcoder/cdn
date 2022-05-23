@@ -1,0 +1,6 @@
+animation=leaf.anim
+lifetime=40.0
+destroyInWater=True
+weight=0.1
+applyGravity=True
+rotationSpeed=20.0

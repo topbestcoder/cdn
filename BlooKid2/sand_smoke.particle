@@ -1,0 +1,8 @@
+animation=sand_smoke.anim
+lifetime=6.0
+startScale=0.75
+endScale=1.0
+rotationSpeed=10.0
+destroyInWater=True
+applyGravity=True
+weight=0.5

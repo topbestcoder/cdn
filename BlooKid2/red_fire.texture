@@ -1,0 +1,6 @@
+image=red_fire
+frameSizeX=18
+frameSizeY=18
+visiblecollision=lavaball_visible.shape
+imageWidth=18
+imageHeight=18

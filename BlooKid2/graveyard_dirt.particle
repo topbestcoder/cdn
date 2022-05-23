@@ -1,0 +1,7 @@
+animation=graveyard_dirt.anim
+lifetime=8.0
+rotationSpeed=40.0
+destroyInWater=True
+applyGravity=True
+fadeOut=True
+weight=0.5

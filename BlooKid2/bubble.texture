@@ -1,0 +1,8 @@
+image=bubble
+frameSizeX=6
+frameSizeY=6
+tilecollision=splash.shape
+blend=1
+handleY=0
+imageWidth=6
+imageHeight=6
