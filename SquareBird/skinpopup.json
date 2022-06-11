@@ -1,0 +1,159 @@
+{
+  "frames": {
+    "skin-32": {
+      "frame": {
+        "x": 4,
+        "y": 4,
+        "w": 407,
+        "h": 557
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 13,
+        "w": 407,
+        "h": 557
+      },
+      "sourceSize": {
+        "w": 428,
+        "h": 582
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skin-38": {
+      "frame": {
+        "x": 4,
+        "y": 569,
+        "w": 407,
+        "h": 557
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 14,
+        "w": 407,
+        "h": 557
+      },
+      "sourceSize": {
+        "w": 428,
+        "h": 582
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skin-37": {
+      "frame": {
+        "x": 419,
+        "y": 4,
+        "w": 408,
+        "h": 556
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12,
+        "y": 13,
+        "w": 408,
+        "h": 556
+      },
+      "sourceSize": {
+        "w": 428,
+        "h": 582
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skin36": {
+      "frame": {
+        "x": 4,
+        "y": 1134,
+        "w": 407,
+        "h": 557
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 10,
+        "w": 407,
+        "h": 557
+      },
+      "sourceSize": {
+        "w": 428,
+        "h": 582
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skin-33": {
+      "frame": {
+        "x": 419,
+        "y": 568,
+        "w": 407,
+        "h": 556
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 20,
+        "w": 407,
+        "h": 556
+      },
+      "sourceSize": {
+        "w": 428,
+        "h": 582
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skin-35": {
+      "frame": {
+        "x": 835,
+        "y": 4,
+        "w": 407,
+        "h": 556
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 20,
+        "w": 407,
+        "h": 556
+      },
+      "sourceSize": {
+        "w": 428,
+        "h": 582
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.6",
+    "image": "skinpopup.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 2048
+    },
+    "scale": 1
+  }
+}

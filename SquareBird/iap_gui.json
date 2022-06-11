@@ -1,0 +1,135 @@
+{
+  "frames": {
+    "gold coins-01": {
+      "frame": {
+        "x": 8,
+        "y": 8,
+        "w": 2368,
+        "h": 1604
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 22,
+        "y": 24,
+        "w": 2368,
+        "h": 1604
+      },
+      "sourceSize": {
+        "w": 2414,
+        "h": 1648
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "noadspremium-01": {
+      "frame": {
+        "x": 8,
+        "y": 1628,
+        "w": 2368,
+        "h": 1604
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 18,
+        "y": 14,
+        "w": 2368,
+        "h": 1604
+      },
+      "sourceSize": {
+        "w": 2402,
+        "h": 1632
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "premiumgoldpack-01": {
+      "frame": {
+        "x": 2392,
+        "y": 8,
+        "w": 2368,
+        "h": 1604
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 18,
+        "y": 16,
+        "w": 2368,
+        "h": 1604
+      },
+      "sourceSize": {
+        "w": 2402,
+        "h": 1632
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "button1-01": {
+      "frame": {
+        "x": 8,
+        "y": 3248,
+        "w": 1086,
+        "h": 348
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 1086,
+        "h": 348
+      },
+      "sourceSize": {
+        "w": 1154,
+        "h": 402
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "button2-01": {
+      "frame": {
+        "x": 2392,
+        "y": 2392,
+        "w": 622,
+        "h": 288
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 26,
+        "w": 622,
+        "h": 288
+      },
+      "sourceSize": {
+        "w": 638,
+        "h": 328
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.6",
+    "image": "iap_gui.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 4096,
+      "h": 4096
+    },
+    "scale": 2
+  }
+}

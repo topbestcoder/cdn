@@ -1,0 +1,183 @@
+{
+  "frames": {
+    "tutorialboardline": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 561,
+        "h": 743
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 561,
+        "h": 743
+      },
+      "sourceSize": {
+        "w": 561,
+        "h": 743
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "tutorialhand": {
+      "frame": {
+        "x": 2,
+        "y": 749,
+        "w": 138,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 138,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 138,
+        "h": 184
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "tutorialbird": {
+      "frame": {
+        "x": 2,
+        "y": 937,
+        "w": 171,
+        "h": 143
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 171,
+        "h": 143
+      },
+      "sourceSize": {
+        "w": 171,
+        "h": 143
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "tutorialegg": {
+      "frame": {
+        "x": 144,
+        "y": 749,
+        "w": 143,
+        "h": 143
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 143,
+        "h": 143
+      },
+      "sourceSize": {
+        "w": 143,
+        "h": 143
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "tutorialland": {
+      "frame": {
+        "x": 144,
+        "y": 896,
+        "w": 255,
+        "h": 10
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 255,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 255,
+        "h": 10
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "tutorialhowto": {
+      "frame": {
+        "x": 291,
+        "y": 749,
+        "w": 316,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 316,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "tutorialtouch": {
+      "frame": {
+        "x": 567,
+        "y": 2,
+        "w": 97,
+        "h": 81
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 97,
+        "h": 81
+      },
+      "sourceSize": {
+        "w": 97,
+        "h": 81
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.5",
+    "image": "tutorial.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 666,
+      "h": 1082
+    },
+    "scale": 1
+  }
+}
